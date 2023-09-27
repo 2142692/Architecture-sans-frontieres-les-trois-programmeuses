@@ -1,0 +1,28 @@
+#section-services h2 {
+    color: #280AEB;
+}
+  
+#section-services .card {
+    background-color: #B3CEE0;
+    box-shadow: none;
+    height: 50vh;
+    margin: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 0%;
+}
+  
+#section-services .logo-service {
+    margin-left: 10px;
+}
+
+#section-services .card-title {
+    color: #280AEB;
+}
+
+#section-services button {
+    margin: 20px;
+    border-radius: 0%;
+}
+
+  
