@@ -1,0 +1,14 @@
+nav {
+    background-color: rgba(188, 209, 223, 0.6);
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero_service{
+    width:100%;
+    grid-row: 1 / 2;
+
+}
