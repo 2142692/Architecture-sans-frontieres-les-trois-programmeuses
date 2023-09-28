@@ -1,5 +1,9 @@
-#section-services h2 {
+h2, h5 {
     color: #280AEB;
+}
+
+nav {
+    background-color: rgba(188, 209, 223, 0.6);
 }
   
 #section-services .card {
@@ -25,4 +29,41 @@
     border-radius: 0%;
 }
 
-  
+.carousel-inner {
+    position: relative;
+}
+
+#section-news {
+    height: 75vh;
+    background-color: #CDCCD8;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 110%;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    background-color: #968CE0;
+}
+
+@media screen and (min-width: 1200px) {
+    #section-news .card {
+        margin: 0 1em;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #section-news .card:not(:first-child) {
+        display: none;
+    }
+}
