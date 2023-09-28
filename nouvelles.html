@@ -1,11 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <!-- Header -->
+    <header> 
+
+        <nav class="navbar navbar-light fixed-top navbar-expand-md">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#" id="scrollspyHeading1">
+                    <img src="sources/medias/accueil/logos/logo.png" width="100px" height="100px" />
+                  </a>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Navigation -->
+                <div id="mainNav" class="collapse navbar-collapse d-flex justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="page-1.html" class="nav-link">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page-2.html" class="nav-link">Nos services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page-3.html" class="nav-link">Nos nouvelles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page-4.html" class="nav-link">Notre histoire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page-5.html" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary btn-sm">Contribuez</button>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page-5.html" class="nav-link">| EN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+  <!-- Page nouvelle - cartes -->
+  <section id="section-hero-nouvelle">
+
+    <div class="p-5">
+       
+    <img src="sources/medias/nouvelles/hero_image_nouvelles.jpg" class="hero-nouvelle">
+      </div>
+      <!-- Hero -->
+
+        
+        <!-- Page nouvelle - cartes -->
+        <section id="section-nouvelles">
+            <div class="container py-5">
+                <div class="row">
+                  <h2 class="text-center pb-4"> Nos nouvelles </h2>
+                </div>
+
+                <!-- Nouvelle 01 -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <div class="card">
+                            <div class="img-nov01">
+                                <img src="sources/medias/nouvelles/02_image_nouvelle.png" class="banner-nov01" width="100%">
+                        </div>
+              
+                            <div class="card-body">
+                                <h3 class="card-title"> École en Tanzanie : le chantier se prépare ! </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                La conception de l'école primaire pour la communauté massaï d'Enguserosambu est terminée et sa construction s'apprête à commencer. L'équipe de volontaires du Programme du regroupement étudiants pour la coopération internationale de l'ÉTS (PRÉCI) prend désormais le relais en Tanzanie pour participer au chantier.
+                            </div>
+
+                            
+                            <button type="button" class="btn btn-primary">En savoir plus 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                   
+                <!-- Nouvelle 02 -->
+          
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <div class="card">
+                            <div class="img-nov02">
+                                <img src="sources/medias/nouvelles/09_image_nouvelle.jpg" class="banner-nov02" width="100%">
+                        </div>
+              
+                            <div class="card-body">
+                                <h3 class="card-title"> ASFQ remet le prix Engagement social 2023 de l’OAQ à Lafond Côté Architectes </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                Lors du Gala de l’OAQ 2023, le 21 avril dernier, Christian Samman, président d’ASFQ, a remis avec fierté le Prix Engagement social 2023 à la firme Lafond Côté Architectes. Basée à Québec et dirigée depuis 1993, elle se démarque à travers sa contribution, depuis 30 ans.                            
+                            </div>
+
+                            
+                            <button type="button" class="btn btn-primary">En savoir plus 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                           <!-- Nouvelle 03 -->
+            
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <div class="card">
+                            <div class="img-nov03">
+                                <img src="sources/medias/nouvelles/05_image_nouvelle.png" class="banner-nov03" width="100%">
+                        </div>
+              
+                            <div class="card-body">
+                                <h3 class="card-title"> ASFQ en visite à la Biennale de Venise ! </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                Notre collègue Olivia Daigneault Deschênes, chargée de projet en solidarité urbaine chez ASFQ, était de passage à la Biennale d'architecture de Venise le 15 juin dernier, pour une rencontre mémorable avec le pavillon du Canada.
+                            </div>
+
+                            
+                            <button type="button" class="btn btn-primary">En savoir plus 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    
+                           <!-- Nouvelle 04 -->
+           
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <div class="card">
+                            <div class="img-nov04">
+                                <img src="sources/medias/nouvelles/06_image_nouvelle.jpeg" class="banner-nov04" width="100%">
+                        </div>
+              
+                            <div class="card-body">
+                                <h3 class="card-title"> Conception d'une école en Tanzanie : l'étape d'esquisse est complétée ! </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                Depuis leur mission réalisée en Tanzanie en avril dernier, notre coopérant volontaire Étienne Bernier, architecte associé à l’Agence Spatiale, ainsi que notre architecte coordonnatrice de projets, Maude Ledoux, collaborent à la conception des plans d’une école primaire pour la communauté massaï d’Enguserosambo.
+                            </div>
+
+                            
+                            <button type="button" class="btn btn-primary">En savoir plus 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                                  <!-- Nouvelle 05 -->
+        
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-nov05">
+                                <img src="sources/medias/nouvelles/10_image_nouvelle.jpg" class="banner-nov05" width="100%">
+                        </div>
+              
+                            <div class="card-body">
+                                <h3 class="card-title"> Les architectes Étienne Bernier et Maude Ledoux de retour de Tanzanie </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                Après deux semaines en Tanzanie, l'équipe d'architectes Étienne Bernier et Maude Ledoux sont de retour de mission avec des informations précieuses pour la conception de l'école primaire. 
+                            </div>
+
+                            
+                            <button type="button" class="btn btn-primary">En savoir plus 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                                 <!-- Nouvelle 06 -->
+                           
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-nov06" height="80%">
+                                                <img src="sources/medias/nouvelles/03_image_nouvelle.png" class="banner-nov06" width="100%">
+                                        </div>
+                              
+                                            <div class="card-body">
+                                                <h3 class="card-title"> Itinérance et résilience aux inondations : la SCHL appuie 2 projets d’ASFQ »</h3>
+                                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                                La Société canadienne d’hypothèques et de logement (SCHL) a récemment dévoilé les dix lauréats de son Fonds de recherche et de planification pour l’année 2023, ainsi que les vingt-six projets présélectionnés pour le quatrième cycle du Défi d’offre de logement 
+                                            </div>
+                
+                                            
+                                            <button type="button" class="btn btn-primary">En savoir plus 
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                </div>
+                            
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
 <body>
     
 </body>
