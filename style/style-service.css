@@ -2,13 +2,29 @@ nav {
     background-color: rgba(188, 209, 223, 0.6);
 }
 
-body{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
+
 
 .hero_service{
+    position: relative;
     width:100%;
-    grid-row: 1 / 2;
+ height: 70vh;
+object-fit: cover;
+}
 
+.titre{
+    position: absolute;
+    background-color: #b2afd5d3;
+    width: 20%;
+    padding: 50px;
+    top:200px;
+    left: 200px;
+    
+}
+
+.first_titre{
+    font-size: 60px;
+}
+
+.desc{
+    font-size: 30px;
 }
