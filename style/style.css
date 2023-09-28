@@ -67,3 +67,28 @@ nav {
         display: none;
     }
 }
+
+#section-nouvelles .card {
+    background-color: #B3CEE0;
+    box-shadow: none;
+    height: 55vh;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 0%;
+    font-size: 15px;
+   text-align: left;
+   
+}
+
+#section-nouvelles .card-title {
+ 
+    font-size: 20px;
+}
+
+.hero-nouvelle {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
