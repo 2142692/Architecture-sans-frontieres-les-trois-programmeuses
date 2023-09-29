@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+    
+}
 
 
 h2, h5 {
@@ -117,8 +121,14 @@ nav {
 
 .hero-nouvelle {
     object-fit: cover;
-    width: 100%;
+    width: 3250px;
     height: 100vh;
-    margin: 0;
+    margin-top: -48px;
 }
+
+#section-hero-nouvelle {
+    display: flex;
+    justify-content: center;
+}
+
 
