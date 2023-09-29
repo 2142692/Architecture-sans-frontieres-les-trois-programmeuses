@@ -8,6 +8,13 @@ nav {
     background-color: rgba(188, 209, 223, 0.6);
 }
 
+@media screen and (min-width: 992px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
+
 .hero .card {
     background-color: #CDCCD8;
     border: none;
