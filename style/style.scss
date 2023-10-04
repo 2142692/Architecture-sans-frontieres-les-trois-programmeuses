@@ -149,33 +149,38 @@ footer {
 
 // --- FIN Accueil --- 
 
+// --- Début nouvelle --- 
+
 #section-nouvelles .card {
     background-color: #B3CEE0;
     box-shadow: none;
-    height: 68vh;
+    height: 80vh;
     margin-bottom: 70px;
     border: none;
     border-radius: 0%;
     font-size: 15px;
    text-align: left;
    
-}
-
-#section-nouvelles .card-title {
+   .card-title {
     font-size: 20px;
 }
 
-.hero-nouvelle {
-    object-fit: cover;
-    width: 3250px;
-    height: 100vh;
-    margin-top: -48px;
 }
 
 #section-hero-nouvelle {
     display: flex;
     justify-content: center;
+
+    .hero-nouvelle {
+        object-fit: cover;
+        width: 3250px;
+        height: 100vh;
+        margin-top: -48px;
 }
+}
+// --- FIN Nouvelle --- 
+
+// --- Début FAQ --- 
 
 .accordion-button.collapsed::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -185,7 +190,30 @@ footer {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   }
 
+  #section-faq {
 
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+  }
+
+
+
+  // --- FIN FAQ --- 
+
+
+  #section-hero-propos {
+    display: flex;
+    justify-content: center;
+
+    .hero-propos {
+        object-fit: cover;
+        width: 3250px;
+        height: 100vh;
+        margin-top: -48px;
+}
+}
 /*Page service hero maika*/
 
 @media screen and (min-width: 300px) {
@@ -441,4 +469,8 @@ object-fit: cover;
     padding: 20px;
     font-weight: bold;
 }
+
+
+
+
 /*# sourceMappingURL=style.css.map */
