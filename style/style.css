@@ -190,7 +190,7 @@ footer .footer {
   }
   .titre_service {
     position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: aliceblue;
     width: 100%;
     max-width: 50%;
     padding: 30px;
@@ -214,7 +214,7 @@ footer .footer {
   }
   .titre_service {
     position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: aliceblue;
     width: 100%;
     max-width: 50%;
     padding: 50px;
@@ -238,12 +238,12 @@ footer .footer {
   }
   .titre_service {
     position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: aliceblue;
     width: 100%;
     max-width: 50%;
     padding: 50px;
-    top: 200px;
-    left: 200px;
+    top: 500px;
+    left: 500px;
   }
   .first_titre {
     font-size: 60px;
@@ -279,6 +279,7 @@ footer .footer {
   #services img.card-img-top {
     position: relative;
     height: 60vh;
+    object-fit: cover;
   }
   #services a.details button {
     width: 100%;
@@ -310,6 +311,7 @@ footer .footer {
   #services img.card-img-top {
     position: relative;
     height: 30vh;
+    object-fit: cover;
   }
   #services a.details button {
     width: 100%;
@@ -336,6 +338,7 @@ footer .footer {
     color: #280AEB;
   }
   #services img.card-img-top {
+    object-fit: cover;
     position: relative;
     height: 35vh;
   }
