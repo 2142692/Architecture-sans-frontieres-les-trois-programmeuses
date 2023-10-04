@@ -1,0 +1,444 @@
+@use '../style/mixin/card';
+
+$color-title: #280AEB;
+
+body {
+    overflow-x: hidden;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.btn, .card {
+    @include card.card;
+}
+
+h2, h5 {
+    color: $color-title;
+}
+
+// --- DÉBUT Accueil --- 
+
+nav {
+    background-color: rgba(188, 209, 223, 0.6);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.hero {
+    .card {
+        background-color: #CDCCD8;
+
+        h5 {
+            color: #16077A;
+        }
+                
+        img {
+            max-height: 100vh;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        border-radius: 10px;
+
+        &-active {
+            width: 30px;
+        }
+    }  
+}
+  
+#section-services {
+    .card {
+        background-color: #B3CEE0;
+        box-shadow: none;
+        height: 50vh;
+        margin: 10px;
+        padding-top: 10px;
+
+        .logo-service {
+            margin-left: 10px;
+        }
+        
+        .card-title {
+            color: $color-title;
+        }
+
+        button {
+            margin: 20px;
+        }
+    }    
+} 
+
+#section-news {
+    background-color: #CDCCD8;
+
+    .card {
+        height: 100%;
+
+        button {
+            margin: 10px;
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        width: 8vh;
+        height: 8vh;
+        background-color: #968CE0;
+        border-radius: 50%;
+
+        &::after, &::after {
+            color: #fff;
+        }
+    }
+}
+
+
+#section-testimonial {
+    .card {
+        background-color: #B3CEE0;
+    
+        img {
+            border-radius: 50%;
+        }
+    }
+}
+
+#section-don {
+    background-image: url(../sources/medias/accueil/image_don.png);
+    background-position: 50% 50%;
+
+    .card {
+        background-color: rgba(178, 175, 213, 0.8);
+    }
+}
+
+footer {
+    background-color: #BFB6F9;
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    footer {
+        .footer {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, auto);
+            justify-items: center;
+            align-items: center
+        }
+
+        .no1 {
+            grid-area: 1 / 1 / 4 / 2;
+        }
+    }
+}
+
+// --- FIN Accueil --- 
+
+#section-nouvelles .card {
+    background-color: #B3CEE0;
+    box-shadow: none;
+    height: 68vh;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 0%;
+    font-size: 15px;
+   text-align: left;
+   
+}
+
+#section-nouvelles .card-title {
+    font-size: 20px;
+}
+
+.hero-nouvelle {
+    object-fit: cover;
+    width: 3250px;
+    height: 100vh;
+    margin-top: -48px;
+}
+
+#section-hero-nouvelle {
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+
+
+/*Page service hero maika*/
+
+@media screen and (min-width: 300px) {
+    .hero_service{
+        position: relative;
+        width:100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    
+    .titre_service{
+        position: absolute;
+        background-color: #b2afd5d3;
+        width: 100%;
+        max-width: 50%;
+        padding: 30px;
+        top:100px;
+        left: 140px;
+    }
+    
+    .first_titre{
+        font-size: 30px;
+    }
+    
+    .desc{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero_service{
+        position: relative;
+        width:100%;
+     height: 100vh;
+    object-fit: cover;
+    }
+    
+    .titre_service{
+        position: absolute;
+        background-color: #b2afd5d3;
+        width: 100%;
+        max-width: 50%;
+        padding: 50px;
+        top:200px;
+        left: 200px;
+    }
+    
+    .first_titre{
+        font-size: 40px;
+    }
+    
+    .desc{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+.hero_service{
+    position: relative;
+    width:100%;
+ height: 100vh;
+object-fit: cover;
+}
+
+.titre_service{
+    position: absolute;
+    background-color: #b2afd5d3;
+    width: 100%;
+    max-width: 50%;
+    padding: 50px;
+    top:200px;
+    left: 200px;
+}
+
+.first_titre{
+    font-size: 60px;
+}
+
+.desc{
+    font-size: 30px;
+}
+}
+
+
+/*Page service container maika*/
+@media screen and (min-height: 100px) {
+    #services .card {
+        background-color: #B3CEE0;
+    box-shadow: none;
+    height: 160vh;
+    max-width: 1000px;
+    margin: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 0%;
+    }
+
+    #services .logo-service {
+        margin-left: 10px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    #services .card-title {
+        color: #280AEB;
+    }
+    
+    #section-services button {
+        margin: 20px;
+        border-radius: 0%;
+    }
+    
+
+    #services img.card-img-top {
+        position: relative;
+        height: 60vh;
+       
+    }
+
+    #services a.details button{
+    
+        width: 100%;
+     
+     }
+
+}
+
+@media screen and (min-height: 600px) {
+    #services .card {
+        background-color: #B3CEE0;
+    box-shadow: none;
+    height: 80vh;
+    max-width: 1000px;
+    margin: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 0%;
+    }
+
+    #services .logo-service {
+        margin-left: 10px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    #services .card-title {
+        color: #280AEB;
+    }
+    
+    #section-services button {
+        margin: 20px;
+        border-radius: 0%;
+    }
+    
+
+    #services img.card-img-top {
+        position: relative;
+        height: 30vh;
+       
+    }
+
+    #services a.details button{
+    
+        width: 100%;
+     
+     }
+}
+
+@media screen and (min-height: 700px) {
+#services .card {
+    background-color: #B3CEE0;
+    box-shadow: none;
+    height: 70vh;
+    max-width: 1000px;
+    margin: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 0%;
+    border-radius: 5%;
+}
+ 
+#services .logo-service {
+    margin-left: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+#services .card-title {
+    color: #280AEB;
+}
+
+
+#services img.card-img-top {
+    position: relative;
+    height: 35vh;
+   
+}
+
+#services a.details button{
+    
+   width: 100%;
+
+}
+
+
+}
+
+/*detail services hero*/
+
+.hero_detail{
+    position: relative;
+    width:100%;
+ height: 100vh;
+object-fit: cover;
+}
+
+.titre_detail{
+    position: absolute;
+    background-color: #b2afd5d3;
+    width: 100%;
+    max-width: 50%;
+    padding: 50px;
+    top:200px;
+    left: 200px;
+    font-size: 50px;
+    
+}
+
+.logo-detail{
+    margin: 0 auto;
+    position: relative;
+    margin-right: 10%;
+}
+
+.titre_detail p{
+    text-align: center;
+    position: absolute;
+    top:-20px;
+    left: 90px;
+}
+
+
+.expertise{
+    position: absolute;
+    text-align: center;
+    background-color: #968ce0f3;
+    z-index: 1;
+    width: 100%;
+    bottom: -20px;
+    font-size: 30px;
+    color:#280AEB;
+    padding: 20px;
+    font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@ const swiperHero = new Swiper(".mySwiper", {
 const swiperNews = new Swiper(".mySecondSwiper", {
   direction: "horizontal",
   slidesPerView: 2,
-  spaceBetween: 15,
+  spaceBetween: 30,
   centeredSlides: true,
   navigation: {
     nextEl: ".swiper-button-next",
