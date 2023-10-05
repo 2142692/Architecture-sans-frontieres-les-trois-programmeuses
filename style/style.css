@@ -3,13 +3,15 @@ body {
   font-family: "Chakra Petch", sans-serif;
 }
 
-.btn, .card {
+.btn,
+.card {
   border: none;
   border-radius: 0%;
 }
 
-h2, h5 {
-  color: #280AEB;
+h2,
+h5 {
+  color: #280aeb;
 }
 
 nav {
@@ -35,10 +37,10 @@ nav {
 }
 
 .hero .card {
-  background-color: #CDCCD8;
+  background-color: #cdccd8;
 }
 .hero .card h5 {
-  color: #16077A;
+  color: #16077a;
 }
 .hero .card img {
   width: 100%;
@@ -66,7 +68,7 @@ nav {
   }
 }
 #section-services .card {
-  background-color: #B3CEE0;
+  background-color: #b3cee0;
   box-shadow: none;
   height: 50vh;
   margin: 10px;
@@ -76,14 +78,14 @@ nav {
   margin-left: 10px;
 }
 #section-services .card .card-title {
-  color: #280AEB;
+  color: #280aeb;
 }
 #section-services .card button {
   margin: 20px;
 }
 
 #section-news {
-  background-color: #CDCCD8;
+  background-color: #cdccd8;
 }
 #section-news .card {
   height: 100%;
@@ -91,18 +93,21 @@ nav {
 #section-news .card button {
   margin: 10px;
 }
-#section-news .swiper-button-prev, #section-news .swiper-button-next {
+#section-news .swiper-button-prev,
+#section-news .swiper-button-next {
   width: 8vh;
   height: 8vh;
-  background-color: #968CE0;
+  background-color: #968ce0;
   border-radius: 50%;
 }
-#section-news .swiper-button-prev::after, #section-news .swiper-button-prev::after, #section-news .swiper-button-next::after, #section-news .swiper-button-next::after {
+#section-news .swiper-button-prev::after, #section-news .swiper-button-prev::after,
+#section-news .swiper-button-next::after,
+#section-news .swiper-button-next::after {
   color: #fff;
 }
 
 #section-testimonial .card {
-  background-color: #B3CEE0;
+  background-color: #b3cee0;
 }
 #section-testimonial .card img {
   border-radius: 50%;
@@ -117,7 +122,7 @@ nav {
 }
 
 footer {
-  background-color: #BFB6F9;
+  background-color: #bfb6f9;
 }
 footer .footer {
   display: grid;
@@ -139,7 +144,7 @@ footer .footer {
   }
 }
 #section-nouvelles .card {
-  background-color: #B3CEE0;
+  background-color: #b3cee0;
   box-shadow: none;
   height: 80vh;
   margin-bottom: 70px;
@@ -175,6 +180,24 @@ footer .footer {
 #section-faq h2 {
   text-align: center;
   font-weight: bold;
+}
+
+#section-equipe .card {
+  background-color: #b3cee0;
+  margin-bottom: 28px;
+}
+#section-equipe .card img {
+  margin-left: 42px;
+  margin-top: 60px;
+  width: 80%;
+}
+#section-equipe .card .card-body {
+  margin-top: 20px;
+  margin-right: 28px;
+}
+#section-equipe .card h6 {
+  font-weight: bold;
+  color: #16077a;
 }
 
 #section-hero-propos {
@@ -265,7 +288,7 @@ footer .footer {
 /*Page service container maika*/
 @media screen and (min-height: 100px) {
   #services .card {
-    background-color: #B3CEE0;
+    background-color: #b3cee0;
     box-shadow: none;
     height: 160vh;
     max-width: 1000px;
@@ -280,7 +303,7 @@ footer .footer {
     z-index: 1;
   }
   #services .card-title {
-    color: #280AEB;
+    color: #280aeb;
   }
   #section-services button {
     margin: 20px;
@@ -296,7 +319,7 @@ footer .footer {
 }
 @media screen and (min-height: 600px) {
   #services .card {
-    background-color: #B3CEE0;
+    background-color: #b3cee0;
     box-shadow: none;
     height: 80vh;
     max-width: 1000px;
@@ -311,7 +334,7 @@ footer .footer {
     z-index: 1;
   }
   #services .card-title {
-    color: #280AEB;
+    color: #280aeb;
   }
   #section-services button {
     margin: 20px;
@@ -327,7 +350,7 @@ footer .footer {
 }
 @media screen and (min-height: 700px) {
   #services .card {
-    background-color: #B3CEE0;
+    background-color: #b3cee0;
     box-shadow: none;
     height: 70vh;
     max-width: 1000px;
@@ -343,7 +366,7 @@ footer .footer {
     z-index: 1;
   }
   #services .card-title {
-    color: #280AEB;
+    color: #280aeb;
   }
   #services img.card-img-top {
     position: relative;
@@ -394,7 +417,7 @@ footer .footer {
   width: 100%;
   bottom: -20px;
   font-size: 30px;
-  color: #280AEB;
+  color: #280aeb;
   padding: 20px;
   font-weight: bold;
 }
