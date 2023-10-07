@@ -3,19 +3,59 @@ body {
   font-family: "Chakra Petch", sans-serif;
 }
 
-.btn,
 .card {
   border: none;
   border-radius: 0%;
 }
 
-h2,
+.btn {
+  background-color: #7260E6;
+  border: none;
+  border-radius: 0%;
+}
+.btn:hover {
+  background-color: #9B91E1;
+}
+
+h2, h3,
 h5 {
   color: #280aeb;
 }
 
+.alert {
+  margin-bottom: 0 !important;
+  background-color: #8DB6D0;
+  color: #280aeb;
+  border: none;
+  border-radius: 0%;
+}
+.alert .btn-close {
+  top: 0.3rem !important;
+}
+
 nav {
   background-color: #B3CEE0;
+}
+nav .navbar-toggler {
+  border: none;
+}
+
+li a {
+  color: #280aeb !important;
+}
+li a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+li a:hover::after, li a.active-nav::after {
+  width: 100%;
+  background: #280aeb;
 }
 
 @media screen and (min-width: 992px) {
@@ -24,23 +64,12 @@ nav {
     justify-content: end;
   }
 }
-.banniere {
-  position: relative;
-  width: 100%;
-  height: 5vh;
-  background-color: #8DB6D0;
-}
-.banniere .bi-x {
-  position: absolute;
-  top: 1vh;
-  right: 0;
-}
-
 .hero .card {
   background-color: #cdccd8;
 }
 .hero .card h5 {
   color: #16077a;
+  line-height: 1.5;
 }
 .hero .card img {
   width: 100%;
@@ -56,19 +85,25 @@ nav {
 }
 .hero .swiper-pagination-bullet-active {
   width: 30px;
+  background: #7260E6;
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (min-width: 375px) {
   .hero .card .card-body {
-    height: 48vh;
+    height: 68vh;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: baseline;
   }
 }
+@media screen and (min-width: 768px) {
+  .hero .card .card-body {
+    height: 35vh;
+  }
+}
 #section-services .card {
-  background-color: #b3cee0;
+  background-color: #a5c6dc;
   box-shadow: none;
   height: 50vh;
   margin: 10px;
@@ -84,6 +119,11 @@ nav {
   margin: 20px;
 }
 
+@media screen and (max-width: 389px) {
+  #section-services .card {
+    height: 60vh;
+  }
+}
 #section-news {
   background-color: #cdccd8;
 }
@@ -107,7 +147,7 @@ nav {
 }
 
 #section-testimonial .card {
-  background-color: #b3cee0;
+  background-color: #a5c6dc;
 }
 #section-testimonial .card img {
   border-radius: 50%;
@@ -122,7 +162,8 @@ nav {
 }
 
 footer {
-  background-color: #bfb6f9;
+  color: #280aeb;
+  background-color: #B3CEE0;
 }
 footer .footer {
   display: grid;
@@ -130,6 +171,27 @@ footer .footer {
   grid-template-rows: repeat(6, auto);
   justify-items: center;
   gap: 40px;
+}
+footer .no2 a {
+  color: #280aeb !important;
+  text-decoration: none;
+}
+footer .no2 a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+footer .no2 a:hover::after, footer .no2 a.active-nav::after {
+  width: 100%;
+  background: #280aeb;
+}
+footer .no5 a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
