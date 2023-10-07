@@ -199,6 +199,11 @@ li {
   .card {
     background-color: rgba(178, 175, 213, 0.8);
   }
+
+  .contenu {
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 footer {

@@ -160,6 +160,10 @@ li a:hover::after, li a.active-nav::after {
 #section-don .card {
   background-color: rgba(178, 175, 213, 0.8);
 }
+#section-don .contenu {
+  position: relative;
+  overflow: hidden;
+}
 
 footer {
   color: #280aeb;
