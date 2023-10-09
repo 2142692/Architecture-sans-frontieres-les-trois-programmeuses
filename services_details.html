@@ -9,49 +9,71 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light fixed-top navbar-expand-lg">
-            <div class="container">
+   
+  <!-- Header -->
+  <header>
 
-            <!-- Logo -->
-              <a class="navbar-brand" href="#" id="scrollspyHeading1">
-                <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
-              </a>
+    <!-- Bannière -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong class="me-2">Ce site a été réalisé à des fins entièrement pédagogiques.</strong> 
+        <a href="https://www.asf-quebec.org/">
+            <button type="button" class="btn btn-primary" href="https://www.asf-quebec.org/">Visiter le site officiel
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+            </button>
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 
-              <!-- Hamburger -->
-              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              
-              <!-- Navigation -->
-              <div id="mainNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav d-flex align-items-end">
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no1" href="#scrollspyHeading2">À propos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no2"  href="#scrollspyHeading3">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no3" href="#scrollspyHeading4">Nouvelles</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no4" href="#scrollspyHeading5">Histoire</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no5" href="#scrollspyHeading6">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-primary btn-sm me-3">Contribuez</button>
-                  </li>
-                  <li class="nav-item">
-                    <a href="page-5.html" class="nav-link me-3">EN</a>
-                  </li>
-                </ul>
-              </div>  
-            </div>
-        </nav>
-    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+
+        <!-- Logo -->
+          <a class="navbar-brand" value="href" onclick="location.href='index.html'">
+            <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
+          </a>
+
+          <!-- Hamburger -->
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+            <svg viewBox="0 0 12 10" class="hamburger" height="30px" width="50px">
+                <path d="M10,2 L2,2" class="upper" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
+                <path d="M2,5 L10,5" class="middle" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
+                <path d="M10,8 L2,8" class="lower" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>   
+            </svg>
+          </button>
+          
+
+          <!-- Navigation -->
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no1" href="a_propos.html">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no2"  href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no3" href="nouvelles.html">Nouvelles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no4" href="histoire.html">Histoire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no5" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary me-3" value="href" onclick="location.href='don.html'">Contribuez</button>
+              </li>
+              <li class="nav-item">
+                <a href="page-5.html" class="nav-link me-3">EN</a>
+              </li>
+            </ul>
+          </div>  
+        </div>
+    </nav>
+</header>
 
 <main>
     <!-- Hero -->
@@ -74,12 +96,15 @@
 <!-- details_services -->
 <section id="services_details">
 <div class="defi">
-    <h1 class="relever">Le défi à relever</h1>
+    <h1 class="relever pt-4">Le défi à relever</h1>
+    <div class="column d-flex justify-content-center">
+      
     <img class="defi_detail" src="sources/medias/detail_service/01_image.jpg" />
+<div class="row d-flex align-items-center p-4">
 
-<h2 class="developpement">Un développement durable inégal</h2>
+<h2 class="developpement pt-5">Un développement durable inégal</h2>
 
-<p>Nous vivons plus que jamais dans un monde globalisé et interconnecté, où
+<p class="developpement_desc">Nous vivons plus que jamais dans un monde globalisé et interconnecté, où
     les défis du développement durable continuent d’être nombreux et sans
     frontières. Dans plusieurs pays du Sud, pour diverses raisons, des millions
     de personnes vivent avec des bâtiments inadéquats ou dévastés. La
@@ -95,10 +120,11 @@
     ne peuvent rester de simples observateurs des injustices ailleurs dans le
     monde.
     </p>
+  </div>
+  </div>
+    <h2 class="coop">Une architecture de la coopération</h2>
 
-    <h2 class="developpement">Une architecture de la coopération</h2>
-
-    <p>Le programme de coopération internationale d’ASFQ s’aligne sur les
+    <p class="coop_desc">Le programme de coopération internationale d’ASFQ s’aligne sur les
         traditions du Québec et du Canada en la matière, avec la conviction que
         l’architecture est une compétence essentielle pour mettre fin à la pauvreté
         dans le monde, promouvoir la justice sociale, la dignité humaine et le
@@ -116,10 +142,12 @@
 </div>
 
 <div class="axes">
-<h1>Axes d’intervention du programme</h1>
-<img class="axes_detail" src="sources/medias/detail_service/02_image.jpg" />
-<h2>Appui aux projets de coopération internationale</h2>
-<p>
+<h1 class="pt-4">Axes d’intervention du programme</h1>
+<div class="column d-flex justify-content-center">
+
+  <div class="row d-flex align-items-center p-4">
+<h2 class="pb-3">Appui aux projets de coopération internationale</h2>
+<p class="projets_desc">
     L’expertise d’ASFQ est offerte pour rendre possible des infrastructures essentielles là où il n’y en aurait 
     aucune. Notre soutien est à géométrie variable selon le type et le stade d’avancée du projet, allant des études 
     préalables jusqu’à sa livraison. Qu’il s’agisse d’habitations, d’écoles, de dispensaires ou d’autres bâtiments communautaires, 
@@ -133,17 +161,32 @@ se font aussi en fonction des crises humanitaires et des priorités de nos parte
 aux normes para-sismiques, para-cycloniques et aux savoir-faire techniques qui peuvent s’appliquer.
 </br>
 </br>
-
-Au besoin, ASFQ mobilise des coopérants volontaires parmi ses membres, qui comptent les 4150 architectes de la province. Tout organisme cherchant 
-l’appui d’un architecte bénévole peut faire appel à ASFQ pour assurer son recrutement et son encadrement selon les normes de la coopération. Membre 
-d’ASF International, bras humanitaire de l’OAQ et bureau d’architecture à part entière, ASFQ vise les plus hauts standards éthiques. Grâce à 12 années de projets,
- notre équipe propose une gestion diligente des risques, des assurances, des législations et des autres enjeux de responsabilité professionnelle inhérents à tout projet international.
-
 </p>
 
-<h1>Aide humanitaire d’urgence</h1>
-<img class="axes_detail" src="sources/medias/detail_service/03_image.jpg" />
-<p>ASFQ apporte une assistance technique en cas de catastrophes dans des
+
+
+</div>
+
+<img class="axes_detail" src="sources/medias/detail_service/02_image.jpg" />
+
+</div>
+
+<p class="p_trois">
+  Au besoin, ASFQ mobilise des coopérants volontaires parmi ses membres, qui comptent les 4150 architectes de la province. Tout organisme cherchant 
+  l’appui d’un architecte bénévole peut faire appel à ASFQ pour assurer son recrutement et son encadrement selon les normes de la coopération. Membre 
+  d’ASF International, bras humanitaire de l’OAQ et bureau d’architecture à part entière, ASFQ vise les plus hauts standards éthiques. Grâce à 12 années de projets,
+   notre équipe propose une gestion diligente des risques, des assurances, des législations et des autres enjeux de responsabilité professionnelle inhérents à tout projet international.
+  </p>
+<div class="aide">
+
+  <div class="column d-flex justify-content-center">
+
+  <img class="aide_detail" src="sources/medias/detail_service/03_image.jpg" />
+
+  <div class="row d-flex align-items-center p-4">
+<h2>Aide humanitaire d’urgence</h2>
+
+<p class="aide_desc">ASFQ apporte une assistance technique en cas de catastrophes dans des
     pays en développement, lorsque possible et nécessaire. En cas de
     désastres naturels ou de crises humanitaires, l’expertise architecturale
     facilite l’audit et la mise en sécurité des bâtiments endommagés,
@@ -153,93 +196,93 @@ d’ASF International, bras humanitaire de l’OAQ et bureau d’architecture à
     terre de 2010 et à l’ouragan Matthew de 2017, ainsi qu’au Népal, suite aux
     séismes de 2015.
     </p>
+  </div>
+</div>
 </div>
 
 <div class="affiliation">
-    <h1>Notre affiliation</h1>
-    <img class="axes_detail" src="sources/medias/detail_service/04_image.png" />
-    <p>ASFQ est membre de l’Association québécoise des organismes de coopération 
+  
+    <div class="column d-flex justify-content-center">
+
+      <img class="affiliation_detail" src="sources/medias/detail_service/04_image.png" />
+      <div class="row d-flex align-items-center p-4">
+        <h2 >Notre affiliation</h2>
+      <div class="row d-flex align-items-center p-4">
+    <p class="affiliation_desc">ASFQ est membre de l’Association québécoise des organismes de coopération 
         internationale (AQOCI), qui regroupe près de 70 organisations engagées, 
         ici et à l’étranger, pour la mise en œuvre d’un développement durable et humain. 
         Au fil des ans, ASFQ continue de se rendre disponible comme partenaire architectural 
         auprès des membres de l’AQOCI, pour collaborer dans l’éradication des causes de la pauvreté 
         et pour la construction d’un monde juste, inclusif et respectueux des droits humains.</p>
-
+      </div>
+      </div>
+       
+      </div>
 </div>
 
 <div class="partenaires">
     <h1>Nos partenaires</h1>
-    <img class="partenaire" src="sources/medias/detail_service/partenaires/01_ingenieurs_sans_frontieres.png" />
-    <img class="partenaire" src="sources/medias/detail_service/partenaires/02_programme_regroupement_etudiant.jpg" />
-    <img class="partenaire" src="sources/medias/detail_service/partenaires/03_unesco.png" />
-    <img src="sources/medias/services/01_logo_cooperation_internationale.png" width="110px" height="110px">
+    <div class="column d-flex justify-content-center ">
+    <img class="partenaire pt-5" width="20%" height="20%" src="sources/medias/detail_service/partenaires/01_ingenieurs_sans_frontieres.png" />
+    <img class="partenaire" width="10%" height="10%" src="sources/medias/detail_service/partenaires/02_programme_regroupement_etudiant.jpg" />
+    <img class="partenaire" width="20%" height="20%" src="sources/medias/detail_service/partenaires/03_unesco.png" />
+  
+    <div class="card">
+    <img class="card-img-top" src="sources/medias/services/01_logo_cooperation_internationale.png" >
+    <div class="card-body">
     <p>Vous êtes un partenaire du secteur et souhaitez obtenir notre appui ?
     Contactez-nous ou consultez notre processus de sélection de projet.</p>
-    
+    <button type="button" class="btn btn-primary">En savoir plus 
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg>
+  </button>
+  </div>
+    </div>
+    </div>
 </div>
 
 </section>
 </main>
 
 <!-- footer -->
-<footer class="px-3 py-3">
+<footer class="px-3 pt-5">
+  <div class="footer">
+      <div class="no1" value="href" onclick="location.href='index.html'">
+          <img src="sources/medias/accueil/logos/logo_site.png">   
+      </div>
+               
+      <div class="no2">
+          <p class="text-center">514 868-1767</p> 
+          <p class="text-center">info@asf-quebec.org</p>
+          <a class="text-center" href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu">201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a> 
+          <p class="text-center mt-3 mb-0">Numéro d’organisme de bienfaisance officiel <br> du Canada : 831067012RR0001</p>       
+      </div>
+              
+      <div class="no3">
+          <p class="text-center"> Notre fier partenaire-fondateur</p>
+              <img src="sources/medias/accueil/logos/logo_partenaire.png">
+      </div>
+            
+      <div class="no4">
+          <button class="btn btn-primary btn-lg" value="href" onclick="location.href='don.html'"> Faire un don
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+          </button> 
+      </div>
+            
+      <div class="no5">
+          <a href="https://www.facebook.com/architecturesansfrontieres/"><img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"></a>
+          <a href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"><img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
+          <a href="https://www.linkedin.com/company/asf-quebec/"><img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
+          <a href="https://twitter.com/quebecasf"><img src="sources/medias/accueil/logos/logo_twitter.png" width="50px" height="50px" style="margin: 0 5px;"></a>
+      </div>
 
-    <div class="container sticky-bottom d-flex justify-content-center">
-            <div class="footer">
-                <div class="row pt-4">
-                    <div class="col-12">
-                      <img src="sources/medias/accueil/logos/logo_site.png">   
-                    </div>
-                  </div>
-
-
-                <div class="row py-3">
-                  <div class="col-12">
-                    <p class="text-center"> 514 868-1767 
-                        <br> 
-                        info@asf-quebec.org 
-                        <br> 
-                        201 rue Sainte-Catherine Est, Montréal, QC, 
-                        <br> 
-                        H2X 1L2 
-                        <br> 
-                        Numéro d’organisme de bienfaisance officiel 
-                        <br> 
-                        du Canada : 831067012RR0001 
-                    <p>      
-                  </div>
-                </div>
-
-                <div class="row py-3">
-                  <div class="col-12">
-                    <p class="text-center"> Notre fier partenaire-fondateur</p>
-                    <div class="row">
-                        <img src="sources/medias/accueil/logos/logo_partenaire.png">
-                    </div>    
-                  </div>
-                </div>
-
-                <div class="row py-3">
-                  <div class="col-12 d-flex justify-content-center">
-                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal"
-                    data-bs-target="#modal" style="color: var(--text);"> Je m'abonne
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                        </svg>
-                    </button> 
-                  </div>
-                </div>
-
-                <div class="row py-3">
-                  <div class="col-12 d-flex justify-content-center">
-                    <img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"> 
-                    <img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> 
-                    <img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> 
-                  </div>
-                </div>
-                  
-            </div>
-    </div>            
+      <div class="no6 mt-3">
+          <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).</p>
+      </div>
+  </div>
 </footer>
 
 </body>
