@@ -597,6 +597,7 @@ img.affiliation_detail{
 
 .partenaires h1{
   padding-bottom: 20px;
+  padding-right: 30%;
 }
 
 
@@ -609,6 +610,10 @@ img.affiliation_detail{
   margin-top: -50px;
 }
 
+.partenaires .partenaire{
+  margin-top: 50px;
+}
+
 .partenaires .card .card-img-top{
   width: 50%;
   
@@ -617,5 +622,26 @@ img.affiliation_detail{
   
 }
 
+
+/*Erreur 404*/
+
+
+
+ #erreur{
+  text-align: center;
+  padding: 200px;
+  background-color: #7260E6;
+}
+
+.erreur_titre{
+  text-transform: uppercase;
+ font-size: 700%;
+ color: #16077a;
+}
+
+.erreur_desc{
+  font-size: 300%;
+ color:#fff;
+}
 
 /*# sourceMappingURL=style.css.map */

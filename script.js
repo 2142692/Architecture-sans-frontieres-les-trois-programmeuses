@@ -65,3 +65,5 @@ let animation = gsap.timeline({repeat: -1});
 let timeLine = gsap.timeline();
 timeLine.to(".text", {duration: 2, text: sentence});
 animation.add(timeLine);
+
+
