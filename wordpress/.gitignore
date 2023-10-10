@@ -1,4 +1,5 @@
 index.php
+license.txt
 readme.html
 wp-activate.php
 wp-blog-header.php
@@ -14,6 +15,5 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-readme.html
 wp-admin/
 wp-includes/
