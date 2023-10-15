@@ -685,9 +685,9 @@ img.affiliation_detail{
     width: 50%;
     background-color: #7260E6;
     position: absolute;
-  top: 150%;
+  top: 151%;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -698,7 +698,7 @@ img.affiliation_detail{
     top: 170%;
   right: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -709,7 +709,7 @@ img.affiliation_detail{
     top: 200%;
    left: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -720,7 +720,7 @@ img.affiliation_detail{
     top: 240%;
    right: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -732,7 +732,7 @@ img.affiliation_detail{
     top: 274%;
    left: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -743,7 +743,7 @@ img.affiliation_detail{
     top: 313%;
    right: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   
   }
@@ -755,7 +755,7 @@ img.affiliation_detail{
     top: 340%;
    left: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -766,7 +766,7 @@ img.affiliation_detail{
     top: 390%;
   right: 0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
@@ -777,18 +777,18 @@ img.affiliation_detail{
     top: 432%;
    left:0px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
   
   p.histoire_desc10{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
-    top: 470%;
+    top: 465%;
   margin-top: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 12px;
    padding: 19px;
   }
 }
@@ -828,102 +828,102 @@ img.affiliation_detail{
   }
   
   p.histoire_desc1{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
   top: 150%;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc2{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position:absolute;
     top: 170%;
-  right: 0px;
+  right: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc3{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 200%;
-   left: 0px;
+   left: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc4{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 240%;
-   right: 0px;
+   right: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   
   p.histoire_desc5{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 274%;
-   left: 0px;
+   left: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc6{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 313%;
-   right: 0px;
+   right: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   
   }
   
   p.histoire_desc7{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 340%;
-   left: 0px;
+   left: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc8{
-    width: 50%;
+    width: 40%;
     background-color: #7260E6;
     position: absolute;
     top: 390%;
-  right: 0px;
+  right: 80px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
   p.histoire_desc9{
-    width: 50%;
+    width: 45%;
     background-color: #7260E6;
     position: absolute;
-    top: 432%;
-   left:0px;
+    top: 430%;
+   left:30px;
    text-align: center;
-   font-size: 13px;
+   font-size: 15px;
    padding: 19px;
   }
   
@@ -932,7 +932,7 @@ img.affiliation_detail{
     background-color: #7260E6;
     position: absolute;
     top: 457%;
-  margin-top: 80px;
+  
    text-align: center;
    font-size: 15px;
    padding: 19px;
@@ -1095,11 +1095,11 @@ img.affiliation_detail{
   }
 
   img.fleche {
-    position: absolute;
-    
-    object-fit: cover;
-   width: 150px;
- height: 2700px;
+    position: relative;
+   
+   
+   width: 130px;
+ height: 100%;
   margin-top: 50px;
   
   }
@@ -1107,41 +1107,41 @@ img.affiliation_detail{
   p.histoire_desc1{
     width: 30%;
     background-color: #7260E6;
-    position: relative;
-  
+    position: absolute;
+  top: 150%;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc2{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-right: 250px;
+    position:absolute;
+    top: 170%;
+  right: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc3{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-left: 210px;
+    position: absolute;
+    top: 200%;
+   left: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc4{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-right: 250px;
+    position: absolute;
+    top: 240%;
+   right: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
@@ -1149,22 +1149,22 @@ img.affiliation_detail{
   
   
   p.histoire_desc5{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-left: 210px;
+    position: absolute;
+    top: 274%;
+   left: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc6{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-right: 250px;
+    position: absolute;
+    top: 313%;
+   right: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
@@ -1172,43 +1172,43 @@ img.affiliation_detail{
   }
   
   p.histoire_desc7{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-left: 210px;
+    position: absolute;
+    top: 340%;
+   left: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc8{
-    width: 30%;
+    width: 40%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-right: 250px;
+    position: absolute;
+    top: 390%;
+  right: 130px;
    text-align: center;
    font-size: 20px;
    padding: 19px;
   }
   
   p.histoire_desc9{
-    width: 30%;
+    width: 45%;
     background-color: #7260E6;
-    position: relative;
-  
-   margin-left: 210px;
+    position: absolute;
+    top: 430%;
+   left:70px;
    text-align: center;
-   font-size: 20px;
+   font-size: 18px;
    padding: 19px;
   }
   
   p.histoire_desc10{
     width: 30%;
     background-color: #7260E6;
-    position: relative;
-  
+    position: absolute;
+    top: 457%;
   margin-top: 80px;
    text-align: center;
    font-size: 20px;
