@@ -66,4 +66,14 @@ let timeLine = gsap.timeline();
 timeLine.to(".text", {duration: 2, text: sentence});
 animation.add(timeLine);
 
+const sentenceEn = "Make a donation";
 
+let cursorEn = gsap.to(".cursor-en", {opacity: 0, ease: "power2.inOut", repeat: -1});
+
+gsap.from(".contenu-en svg", {x: "15%", yoyo: true, ease: "power1.inOut", repeat: -1});
+
+let animationEn = gsap.timeline({repeat: -1});
+
+let timeLineEn = gsap.timeline();
+timeLineEn.to(".text-en", {duration: 2, text: sentenceEn});
+animationEn.add(timeLineEn);
