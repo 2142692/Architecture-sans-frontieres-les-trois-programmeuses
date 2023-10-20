@@ -808,20 +808,24 @@ footer .no5 a {
     margin-top: 80px;
   }
 }
-/*Erreur 404*/
-#erreur {
-  text-align: center;
-  padding: 200px;
-  background-color: #7260E6;
+.erreur .container-fluid {
+  width: 100%;
+  height: 125vh;
+  padding: 5vw;
 }
-#erreur .erreur_titre {
-  text-transform: uppercase;
-  font-size: 700%;
-  color: #16077a;
+.erreur .container-fluid .text {
+  font-size: 100px;
 }
-#erreur .erreur_desc {
-  font-size: 300%;
-  color: #fff;
+
+.text > p {
+  background: linear-gradient(to right, rgb(40, 10, 235) 50%, rgb(37, 37, 37) 50%);
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
