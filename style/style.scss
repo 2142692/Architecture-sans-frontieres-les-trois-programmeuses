@@ -589,4 +589,140 @@ footer {
   font-weight: bold;
 }
 
+
+/*Défi service-detail*/
+.defi{
+  background-color:#8DB6D0;
+  display: block;
+  h1{
+    font-size: 250%;
+     text-align: center;
+   }
+   
+
+
+img {
+  &.defi_detail{
+  margin: 50px;
+  object-fit: cover;
+  height: 100%;
+}
+}
+
+.developpement_desc{
+  font-size: 140%;
+
+}
+
+.coop{
+  margin-left:50px;
+  
+}
+
+.coop_desc{
+  margin-left:50px;
+  padding-bottom: 50px;
+  font-size: 140%;
+}
+
+}
+
+/*Axes d'itervention*/
+.axes {
+  h1{
+  text-align: center;
+}
+
+img{
+  &.axes_detail{
+  margin: 50px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+}
+
+.projets_desc{
+  font-size: 120%;
+}
+
+.p_trois{
+  font-size: 120%;
+  margin-left:25px;
+  padding-bottom: 30px;
+}
+
+}
+
+/*Aide detail service*/
+.aide{
+  background-color: #7260E6;
+  .aide_detail{
+    margin: 50px;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .aide_desc{
+    font-size: 140%;
+    color: #fff;
+  }
+  
+}
+
+/*Affiliation service detail*/
+.affiliation{
+  padding: 50px;
+  margin-bottom: 90px;
+  background-color: #c9c2f9;
+
+  img{
+    &.affiliation_detail{
+  
+    margin: 50px;
+  }
+}
+  
+  .affiliation_desc{
+    font-size: 120%;
+  }
+  
+  .affiliation h2{
+    
+    margin-left: 10px;
+  }
+  
+
+}
+
+/*Partenaires*/
+
+.partenaires{
+  background-color: white;
+  padding: 50px;
+  margin-top: -100px;
+
+  h1{
+    padding-bottom: 20px;
+  }
+
+  .card{
+    width: 20%;
+    background-color:#eeecff;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -50px;
+
+    .card-img-top{
+      width: 50%;
+      
+      text-align: center;
+      margin-left: 60px;
+      
+    }
+
+  }
+
+}
+
 /*# sourceMappingURL=style.css.map */

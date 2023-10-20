@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow-x: hidden;
   font-family: "Chakra Petch", sans-serif;
@@ -489,6 +490,106 @@ footer .no5 a {
   color: #280aeb;
   padding: 20px;
   font-weight: bold;
+}
+
+/*Défi service-detail*/
+.defi {
+  background-color: #8DB6D0;
+  display: block;
+}
+.defi h1 {
+  font-size: 250%;
+  text-align: center;
+}
+.defi img.defi_detail {
+  margin: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.defi .developpement_desc {
+  font-size: 140%;
+}
+.defi .coop {
+  margin-left: 50px;
+}
+.defi .coop_desc {
+  margin-left: 50px;
+  padding-bottom: 50px;
+  font-size: 140%;
+}
+
+/*Axes d'itervention*/
+.axes h1 {
+  text-align: center;
+}
+.axes img.axes_detail {
+  margin: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.axes .projets_desc {
+  font-size: 120%;
+}
+.axes .p_trois {
+  font-size: 120%;
+  margin-left: 25px;
+  padding-bottom: 30px;
+}
+
+/*Aide detail service*/
+.aide {
+  background-color: #7260E6;
+}
+.aide .aide_detail {
+  margin: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.aide .aide_desc {
+  font-size: 140%;
+  color: #fff;
+}
+
+/*Affiliation service detail*/
+.affiliation {
+  padding: 50px;
+  margin-bottom: 90px;
+  background-color: #c9c2f9;
+}
+.affiliation img.affiliation_detail {
+  margin: 50px;
+}
+.affiliation .affiliation_desc {
+  font-size: 120%;
+}
+.affiliation .affiliation h2 {
+  margin-left: 10px;
+}
+
+/*Partenaires*/
+.partenaires {
+  background-color: white;
+  padding: 50px;
+  margin-top: -100px;
+}
+.partenaires h1 {
+  padding-bottom: 20px;
+}
+.partenaires .card {
+  width: 20%;
+  background-color: #eeecff;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+.partenaires .card .card-img-top {
+  width: 50%;
+  text-align: center;
+  margin-left: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
