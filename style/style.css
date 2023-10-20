@@ -808,4 +808,20 @@ footer .no5 a {
     margin-top: 80px;
   }
 }
+/*Erreur 404*/
+#erreur {
+  text-align: center;
+  padding: 200px;
+  background-color: #7260E6;
+}
+#erreur .erreur_titre {
+  text-transform: uppercase;
+  font-size: 700%;
+  color: #16077a;
+}
+#erreur .erreur_desc {
+  font-size: 300%;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
