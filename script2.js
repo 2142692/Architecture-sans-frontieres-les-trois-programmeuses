@@ -8,7 +8,7 @@ let erreur = gsap.timeline()
 {opacity: 0, y: 50, duration:3})
 
 
-/**histoire */
+/**histoire 
 
 
 gsap.from('.fleche',{
@@ -22,4 +22,4 @@ gsap.from('.fleche',{
       },
       y:"40%",scaleY:"10%",
      
-},{ y:"0%", scaleY:"100%",});
+},{ y:"0%", scaleY:"100%",});*/
