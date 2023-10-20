@@ -1,58 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-        <title>Document</title>
-        <link rel="stylesheet" href="style/style.css">
-    </head>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
 
-   <!-- Header -->
-   <header>
-    <nav class="navbar navbar-light fixed-top navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#" id="scrollspyHeading1">
-            <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
-          </a>
-          
-          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div id="mainNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav d-flex align-items-end">
-              <li class="nav-item">
-                <a class="nav-link me-3" id="no1" href="#scrollspyHeading2">À propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-3" id="no2"  href="#scrollspyHeading3">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-3" id="no3" href="#scrollspyHeading4" >Nouvelles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-3" id="no4" href="#scrollspyHeading5">Histoire</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-3" id="no5" href="#scrollspyHeading6">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-primary btn-sm me-3">Contribuez</button>
-              </li>
-              <li class="nav-item">
-                <a href="page-5.html" class="nav-link me-3">EN</a>
-              </li>
-            </ul>
-          </div>  
+        <!-- Bannière -->
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong class="me-2">Ce site a été réalisé à des fins entièrement pédagogiques.</strong> 
+            <a href="https://www.asf-quebec.org/">
+                <button type="button" class="btn btn-primary" href="https://www.asf-quebec.org/">Visiter le site officiel
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-    </nav>
-</header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <div class="container">
+
+            <!-- Logo -->
+              <a class="navbar-brand" value="href" onclick="location.href='index.html'">
+                <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
+              </a>
+
+              <!-- Hamburger -->
+              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                <svg viewBox="0 0 12 10" class="hamburger" height="30px" width="50px">
+                    <path d="M10,2 L2,2" class="upper" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
+                    <path d="M2,5 L10,5" class="middle" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
+                    <path d="M10,8 L2,8" class="lower" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>   
+                </svg>
+              </button>
+              
+
+              <!-- Navigation -->
+              <div id="mainNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex align-items-end">
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no1" href="a_propos.html">À propos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no2"  href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no3" href="nouvelles.html">Nouvelles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no4" href="histoire.html">Histoire</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no5" href="faq.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-primary me-3" value="href" onclick="location.href='don.html'">Contribuez</button>
+                  </li>
+                  <li class="nav-item">
+                    <a href="index_en.html" class="nav-link me-3" >EN</a>
+                  </li>
+                </ul>
+              </div>  
+            </div>
+        </nav>
+    </header>
 
     <main>
  
@@ -228,6 +252,8 @@
 
   </section>
 
+  
+<!-- 
   <section id="section-equipe">
     <div class="container-fluid">
       <div class="row justify-content-center">
@@ -420,83 +446,90 @@
           </div>
         </div>
 
+        -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </section>
-
-
-    </main>
-
-    <footer class="px-3 pt-5">
-        <div class="footer">
-            <div class="no1">
-                <img src="sources/medias/accueil/logos/logo_site.png">   
-            </div>
-                     
-            <div class="no2">
-                <p class="text-center">514 868-1767</p> 
-                <p class="text-center">info@asf-quebec.org</p>
-                <p class="text-center">201 rue Sainte-Catherine Est, Montréal, QC, <br> H2X 1L2</p> 
-                <p class="text-center" style="margin: 0">Numéro d’organisme de bienfaisance officiel <br> du Canada : 831067012RR0001</p>       
-            </div>
+        <footer class="px-3 pt-5">
+          <div class="footer">
+              <div class="no1" value="href" onclick="location.href='index.html'">
+                  <img src="sources/medias/accueil/logos/logo_site.png">   
+              </div>
+                       
+              <div class="no2">
+                  <p class="text-center">514 868-1767</p> 
+                  <p class="text-center">info@asf-quebec.org</p>
+                  <a class="text-center" href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu">201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a> 
+                  <p class="text-center mt-3 mb-0">Numéro d’organisme de bienfaisance officiel <br> du Canada : 831067012RR0001</p>       
+              </div>
+                      
+              <div class="no3">
+                  <p class="text-center"> Notre fier partenaire-fondateur</p>
+                      <img src="sources/medias/accueil/logos/logo_partenaire.png">
+              </div>
                     
-            <div class="no3">
-                <p class="text-center"> Notre fier partenaire-fondateur</p>
-                    <img src="sources/medias/accueil/logos/logo_partenaire.png">
-            </div>
-                  
-            <div class="no4">
-                <button class="btn btn-primary btn-lg"> Faire un don
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                </button> 
-            </div>
-                  
-            <div class="no5">
-                <img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"> 
-                <img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> 
-                <img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> 
-            </div>
-
-            <div class="no6">
-                <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).</p>
-            </div>
-        </div>
-    </footer>
-
+              <div class="no4">
+                  <button class="btn btn-primary btn-lg" value="href" onclick="location.href='don.html'"> Faire un don
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                  </button> 
+              </div>
+                    
+              <div class="no5">
+                  <a href="https://www.facebook.com/architecturesansfrontieres/"><img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"></a>
+                  <a href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"><img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
+                  <a href="https://www.linkedin.com/company/asf-quebec/"><img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
+                  <a href="https://twitter.com/quebecasf"><img src="sources/medias/accueil/logos/logo_twitter.png" width="50px" height="50px" style="margin: 0 5px;"></a>
+              </div>
+  
+              <div class="no6 mt-3">
+                  <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).</p>
+              </div>
+          </div>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script>
+  
+  
+      <script src="script.js"></script>
+  </body>
+  </html>
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
