@@ -863,14 +863,4 @@ footer .no5 a {
   align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .marquee {
-    font-size: 13vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .marquee {
-    font-size: 14vw;
-  }
-}
 /*# sourceMappingURL=style.css.map */
