@@ -68,6 +68,11 @@ li button {
     justify-content: end;
   }
 }
+@media screen and (max-width: 992px) {
+  li button {
+    margin-top: 0;
+  }
+}
 .hero .card {
   background-color: #cdccd8;
 }
