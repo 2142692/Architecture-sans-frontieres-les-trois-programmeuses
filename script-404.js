@@ -1,12 +1,17 @@
-gsap.registerPlugin(ScrollTrigger);
+let anim = gsap
+    .timeline({}) 
+    .to(".clip-top .marquee, .clip-bottom .marquee", 5, {
+        left: "100%",
+        ease: "power4.inOut",
+        yoyo: true,
+        repeat: -1,
+    })
+    
+    .to(".clip-center .marquee", 5, {
+        left: "100%",
+        ease: "power4.inOut",
+        yoyo: true,
+        repeat: -1,
+    });
 
-gsap.to(".text p", {
-    backgroundPositionX: "0%",
-    stagger: 1,
-    ScrollTrigger: {
-        trigger: ".text p",
-        scrub: 1,
-        start: "top center",
-        end: "bottom top",
-    },
-});
+

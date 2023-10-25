@@ -65,6 +65,10 @@ li {
       background: #280aeb;
     }
   }
+
+  button {
+    margin-top: -20%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1031,27 +1035,72 @@ position:absolute;
 
 // --- DÉBUT Erreur 404 ---
 
-.erreur {
-  .container-fluid {
-    width: 100%;
-    height: 125vh;
-    padding: 5vw;
+.loader {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 
-    .text {
-      font-size: 100px;
+  .loader-clip {
+    position: absolute;
+    width: 100vw;
+    height: 33.3vh;
+    overflow: clip;
+    z-index: 10000;
+  }
+
+  .clip-top {
+    top: 0;
+    clip-path: inset(0 0 0 0);
+    background: #7260E6;
+  }
+
+  .clip-bottom {
+    bottom: 0;
+    clip-path: inset(0 0 0 0);
+    background: #7260E6;
+  }
+
+  .clip-center {
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 33.3vh;
+    top: 33.3vh;
+
+    .marquee {
+      color: #280aeb; 
     }
   }
 }
 
-.text > p {
-  background: linear-gradient(to right, rgb(40, 10, 235) 50%, rgb(37, 37, 37) 50%);
-  background-size: 200% 100%;
-  background-position-x: 100%;
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  margin: 0;
-  padding: 0;
+.marquee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200vw;
+  color: #fff;
+  font-size: 10.5vw;
+
+  .marquee-container {
+    width: 100%;
+    padding-top: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .marquee {
+    font-size: 13vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee {
+    font-size: 14vw;
+  }
 }
 
 // --- FIN Erreur 404 ---
