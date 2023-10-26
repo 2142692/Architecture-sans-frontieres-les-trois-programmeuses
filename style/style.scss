@@ -752,16 +752,9 @@ img{
          object-fit: cover;
   }
 
-  img{
-    
-    &.fleche {
-    position: relative;
-   width: 130px;
-   height: 330vh;
-  margin-top: 50px;
-  
-  }
-  }
+#fleche{
+  height: 330vh;
+}
 
   .histoire_desc{
     padding: 50px;
@@ -847,16 +840,7 @@ img{
          object-fit: cover;
   }
 
-  img{
-    
-    &.fleche {
-    position: relative;
-   width: 130px;
-   height: 330vh;
-  margin-top: 50px;
-  
-  }
-  }
+ 
   .histoire_desc{
     padding: 50px;
     
@@ -948,16 +932,9 @@ img{
          object-fit: cover;
   }
 
-  img{
-    
-    &.fleche {
-    position: relative;
-   width: 130px;
-   height: 330vh;
-  margin-top: 50px;
   
-  }
-  }
+  
+  
 .histoire_desc{
   padding: 50px;
   
