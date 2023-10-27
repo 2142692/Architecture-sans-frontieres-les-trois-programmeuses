@@ -657,7 +657,7 @@ footer .no5 a {
 /*histoire media tablette*/
 @media screen and (min-width: 786px) {
   #histoire {
-    background-color: #9B91E1;
+    background-color: #a27a16;
     height: 500vh;
   }
   #histoire .hero_histoire {
@@ -719,9 +719,9 @@ footer .no5 a {
   }
 }
 /*histoire media gros ordinateur*/
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 800px) {
   #histoire {
-    background-color: #000000;
+    background-color: #581f1f;
     height: 500vh;
   }
   #histoire .hero_histoire {
