@@ -364,6 +364,53 @@ footer {
     margin-top: -48px;
   }
 }
+
+#section-propos {
+
+  .card img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+   
+  }
+
+  .organisme {
+    width: 10vw;
+  }
+
+  .reseau{
+    width: 10vw;
+  }
+
+  .expert{
+    width: 30vw;
+    padding-left: 18px;
+ 
+  }
+
+  .intervention{
+    width: 30vw;
+    padding-left: 18px;
+ 
+  }
+
+  .impact{
+    width: 30vw;
+    padding-left: 18px;
+  }
+
+  .first{
+    width: 10vw;
+  }
+
+
+  h4 {
+    padding-top: 10px;
+    color: #280aeb;
+  }
+
+
+}
 /*Page service hero maika*/
 
 @media screen and (min-width: 300px) {
