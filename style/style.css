@@ -428,7 +428,7 @@ footer .no5 a {
 }
 @media screen and (min-height: 700px) {
   #services .card {
-    background-color: #b3cee0;
+    background-color: #ffffff;
     box-shadow: none;
     height: 70vh;
     max-width: 1000px;
@@ -613,12 +613,6 @@ footer .no5 a {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  #histoire img.fleche {
-    position: relative;
-    width: 130px;
-    height: 330vh;
-    margin-top: 50px;
-  }
   #histoire .histoire_desc {
     padding: 50px;
   }
@@ -683,12 +677,6 @@ footer .no5 a {
     height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  #histoire img.fleche {
-    position: relative;
-    width: 130px;
-    height: 330vh;
-    margin-top: 50px;
   }
   #histoire .histoire_desc {
     padding: 50px;
@@ -755,22 +743,23 @@ footer .no5 a {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  #histoire img.fleche {
-    position: relative;
-    width: 130px;
-    height: 330vh;
-    margin-top: 50px;
-  }
   #histoire .histoire_desc {
     padding: 50px;
   }
+  #histoire .histoire_desc svg {
+    position: relative;
+    height: 3300px;
+    top: 200px;
+  }
+  #histoire .histoire_desc svg #Rectangle_1_3 {
+    height: 0%;
+  }
   #histoire .histoire_desc p {
-    margin-top: -100px;
+    margin-top: 100px;
     width: 40%;
     text-align: center;
     font-size: 20px;
     padding: 19px;
-    background-color: #7260E6;
     position: absolute;
   }
   #histoire .histoire_desc p.histoire_desc1 {

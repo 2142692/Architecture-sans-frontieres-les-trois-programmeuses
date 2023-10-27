@@ -825,7 +825,7 @@ img{
  /*histoire media tablette*/
  @media screen and (min-width: 786px) {
   #histoire{
-    background-color:#a27a16;
+    background-color:#9B91E1;
     height: 500vh;
     
  
@@ -917,9 +917,9 @@ img{
 
 
 /*histoire media gros ordinateur*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1300px) {
   #histoire{
-    background-color:#581f1f;
+    background-color:#9B91E1;
     height: 500vh;
 
     .hero_histoire{
@@ -934,6 +934,16 @@ img{
 .histoire_desc{
   padding: 50px;
   
+svg{
+  position: relative;
+  height: 3300px;
+  top:200px;
+
+  #Rectangle_1_3{
+    height: 0%;
+  }
+}
+
  
    p{
     margin-top: 100px;
