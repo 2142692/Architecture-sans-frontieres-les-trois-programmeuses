@@ -458,7 +458,7 @@ footer .no5 a {
 }
 @media screen and (min-height: 700px) {
   #services .card {
-    background-color: #ffffff;
+    background-color: #b3cee0;
     box-shadow: none;
     height: 70vh;
     max-width: 1000px;
@@ -698,7 +698,7 @@ footer .no5 a {
 /*histoire media tablette*/
 @media screen and (min-width: 786px) {
   #histoire {
-    background-color: #a27a16;
+    background-color: #9B91E1;
     height: 500vh;
   }
   #histoire .hero_histoire {
@@ -761,9 +761,9 @@ footer .no5 a {
   }
 }
 /*histoire media gros ordinateur*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1300px) {
   #histoire {
-    background-color: #581f1f;
+    background-color: #9B91E1;
     height: 500vh;
   }
   #histoire .hero_histoire {
