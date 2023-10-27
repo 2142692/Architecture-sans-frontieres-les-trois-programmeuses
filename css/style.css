@@ -287,6 +287,36 @@ footer .no5 a {
   margin-top: -48px;
 }
 
+#section-propos .card img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#section-propos .organisme {
+  width: 10vw;
+}
+#section-propos .reseau {
+  width: 10vw;
+}
+#section-propos .expert {
+  width: 30vw;
+  padding-left: 18px;
+}
+#section-propos .intervention {
+  width: 30vw;
+  padding-left: 18px;
+}
+#section-propos .impact {
+  width: 30vw;
+  padding-left: 18px;
+}
+#section-propos .first {
+  width: 10vw;
+}
+#section-propos h4 {
+  padding-top: 10px;
+  color: #280aeb;
+}
+
 /*Page service hero maika*/
 @media screen and (min-width: 300px) {
   .hero_service {
@@ -422,7 +452,7 @@ footer .no5 a {
 }
 @media screen and (min-height: 700px) {
   #services .card {
-    background-color: #ffffff;
+    background-color: #051a28;
     box-shadow: none;
     height: 70vh;
     max-width: 1000px;
@@ -590,200 +620,297 @@ footer .no5 a {
   margin-left: 60px;
 }
 
-/*histoire media téléphone*/
-@media screen and (min-width: 100px) {
-  #histoire {
-    background-color: #9B91E1;
-    height: 500vh;
-  }
-  #histoire .hero_histoire {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-  #histoire .histoire_desc {
-    padding: 50px;
-  }
-  #histoire .histoire_desc p {
-    width: 50%;
-    background-color: #7260E6;
-    position: absolute;
-    text-align: center;
-    font-size: 12px;
-    padding: 19px;
-  }
-  #histoire .histoire_desc p.histoire_desc1 {
-    top: 140%;
-  }
-  #histoire .histoire_desc p.histoire_desc2 {
-    top: 170%;
-    right: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc3 {
-    top: 200%;
-    left: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc4 {
-    top: 240%;
-    right: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc5 {
-    top: 274%;
-    left: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc6 {
-    top: 313%;
-    right: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc7 {
-    top: 340%;
-    left: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc8 {
-    top: 390%;
-    right: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc9 {
-    top: 432%;
-    left: 0px;
-  }
-  #histoire .histoire_desc p.histoire_desc10 {
-    width: 40%;
-    top: 460%;
-    margin-top: 80px;
-  }
+#hero_histoire {
+  width: 100vw;
+  height: 100vh;
 }
-/*histoire media tablette*/
-@media screen and (min-width: 786px) {
-  #histoire {
-    background-color: #a27a16;
+#hero_histoire .img {
+  width: 100%;
+  height: 100%;
+}
+
+#histoire .titre {
+  color: #280aeb;
+}
+
+/*histoire media téléphone*/
+/*@media screen and (min-width: 100px) {
+  #histoire{
+    background-color:#9B91E1;
     height: 500vh;
-  }
-  #histoire .hero_histoire {
+
+
+
+  .hero_histoire{
     position: relative;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+      width: 100%;
+      height: 100vh;
+         object-fit: cover;
   }
-  #histoire .histoire_desc {
+
+
+  .histoire_desc{
     padding: 50px;
+
+    p{
+      width: 50%;
+      background-color: #7260E6;
+      position: absolute;
+     text-align: center;
+     font-size: 12px;
+     padding: 19px;
+
+     &.histoire_desc1{
+      top: 140%;
+      }
+
+      &.histoire_desc2{
+        top: 170%;
+        right: 0px;
+      }
+
+      &.histoire_desc3{
+        top: 200%;
+        left: 0px;
+       }
+
+       &.histoire_desc4{
+        top: 240%;
+   right: 0px;
+      }
+
+      &.histoire_desc5{
+        top: 274%;
+        left: 0px;
+      }
+
+      &.histoire_desc6{
+        top: 313%;
+        right: 0px;
+      }
+
+      &.histoire_desc7{
+        top: 340%;
+        left: 0px;
+      }
+
+      &.histoire_desc8{
+        top: 390%;
+        right: 0px;
+      }
+
+      &.histoire_desc9{
+        top: 432%;
+        left:0px;
+      }
+
+        &.histoire_desc10{
+          width: 40%;
+          top: 460%;
+  margin-top: 80px;
+      }
+
+    }
   }
-  #histoire .histoire_desc p {
-    width: 40%;
+
+  }
+}*/
+/*histoire media tablette*/
+/*@media screen and (min-width: 786px) {
+  #histoire{
+    background-color:#9B91E1;
+    height: 500vh;
+
+
+
+  .hero_histoire{
+    position: relative;
+      width: 100%;
+      height: 100vh;
+         object-fit: cover;
+  }
+
+
+  .histoire_desc{
+    padding: 50px;
+
+
+     p{
+      width: 40%;
     background-color: #7260E6;
     position: absolute;
-    text-align: center;
-    font-size: 15px;
-    padding: 19px;
+
+   text-align: center;
+
+   font-size: 15px;
+   padding: 19px;
+
+   &.histoire_desc1{
+  top: 140%;
   }
-  #histoire .histoire_desc p.histoire_desc1 {
-    top: 140%;
-  }
-  #histoire .histoire_desc p.histoire_desc2 {
+
+  &.histoire_desc2{
     top: 170%;
-    right: 80px;
+  right: 80px;
   }
-  #histoire .histoire_desc p.histoire_desc3 {
+
+  &.histoire_desc3{
     top: 200%;
-    left: 80px;
-  }
-  #histoire .histoire_desc p.histoire_desc4 {
+
+   left: 80px;
+   }
+
+   &.histoire_desc4{
     top: 240%;
+
     right: 80px;
   }
-  #histoire .histoire_desc p.histoire_desc5 {
+
+  &.histoire_desc5{
     top: 274%;
     left: 80px;
   }
-  #histoire .histoire_desc p.histoire_desc6 {
+
+  &.histoire_desc6{
     top: 313%;
-    right: 80px;
+
+   right: 80px;
+
   }
-  #histoire .histoire_desc p.histoire_desc7 {
+
+  &.histoire_desc7{
     top: 340%;
+
     left: 80px;
   }
-  #histoire .histoire_desc p.histoire_desc8 {
+
+  &.histoire_desc8{
     top: 390%;
+
     right: 80px;
   }
-  #histoire .histoire_desc p.histoire_desc9 {
+
+  &.histoire_desc9{
     width: 45%;
     top: 430%;
-    left: 30px;
+   left:30px;
   }
-  #histoire .histoire_desc p.histoire_desc10 {
-    width: 30%;
-    top: 457%;
+
+    &.histoire_desc10{
+      width: 30%;
+      top: 457%;
+  }
+
+}
+ }
+}
+}*/
+/*histoire media gros ordinateur*/
+/*@media screen and (min-width: 1300px) {
+  #histoire{
+    background-color:#9B91E1;
+    height: 500vh;
+
+    .hero_histoire{
+    position: relative;
+      width: 100%;
+      height: 100vh;
+         object-fit: cover;
+  }
+
+
+
+.histoire_desc{
+  padding: 50px;
+
+svg{
+  position: relative;
+  height: 3300px;
+  top:200px;
+
+  #Rectangle_1_3{
+    height: 0%;
   }
 }
-/*histoire media gros ordinateur*/
-@media screen and (min-width: 800px) {
-  #histoire {
-    background-color: #581f1f;
-    height: 500vh;
-  }
-  #histoire .hero_histoire {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-  #histoire .histoire_desc {
-    padding: 50px;
-  }
-  #histoire .histoire_desc p {
+
+
+   p{
     margin-top: 100px;
     width: 40%;
     text-align: center;
-    font-size: 20px;
-    padding: 19px;
-    position: absolute;
-  }
-  #histoire .histoire_desc p.histoire_desc1 {
+   font-size: 20px;
+   padding: 19px;
+
+position:absolute;
+   &.histoire_desc1{
+
     width: 30%;
-    top: 150%;
+
+  top: 150%;
+
   }
-  #histoire .histoire_desc p.histoire_desc2 {
+
+  &.histoire_desc2{
+
+
     top: 170%;
-    right: 130px;
+  right: 130px;
+
   }
-  #histoire .histoire_desc p.histoire_desc3 {
+
+  &.histoire_desc3{
+
+
     top: 200%;
-    left: 130px;
-  }
-  #histoire .histoire_desc p.histoire_desc4 {
+   left: 130px;
+
+
+   }
+
+   &.histoire_desc4{
+
     top: 240%;
-    right: 130px;
+   right: 130px;
   }
-  #histoire .histoire_desc p.histoire_desc5 {
+
+  &.histoire_desc5{
     top: 274%;
-    left: 130px;
+   left: 130px;
   }
-  #histoire .histoire_desc p.histoire_desc6 {
+
+  &.histoire_desc6{
     top: 313%;
-    right: 130px;
+   right: 130px;
+
   }
-  #histoire .histoire_desc p.histoire_desc7 {
+
+  &.histoire_desc7{
     top: 340%;
-    left: 130px;
+   left: 130px;
   }
-  #histoire .histoire_desc p.histoire_desc8 {
+
+  &.histoire_desc8{
     top: 390%;
-    right: 130px;
+  right: 130px;
   }
-  #histoire .histoire_desc p.histoire_desc9 {
+
+  &.histoire_desc9{
     font-size: 18px;
     top: 430%;
-    left: 70px;
+   left:70px;
   }
-  #histoire .histoire_desc p.histoire_desc10 {
-    width: 30%;
+
+    &.histoire_desc10{
+      width: 30%;
     top: 457%;
-    margin-top: 80px;
+  margin-top: 80px;
+  }
+
   }
 }
+
+}
+}*/
 .loader {
   position: relative;
   width: 100vw;

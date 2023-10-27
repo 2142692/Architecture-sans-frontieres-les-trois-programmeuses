@@ -83,8 +83,7 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -240,8 +239,7 @@ footer .no5 a {
   justify-content: center;
 }
 #section-hero-nouvelle .hero-nouvelle {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 3250px;
   height: 100vh;
   margin-top: -48px;
@@ -283,8 +281,7 @@ footer .no5 a {
   justify-content: center;
 }
 #section-hero-propos .hero-propos {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 3250px;
   height: 100vh;
   margin-top: -48px;
@@ -326,8 +323,7 @@ footer .no5 a {
     position: relative;
     width: 100%;
     height: 70vh;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .titre_service {
     position: absolute;
@@ -350,8 +346,7 @@ footer .no5 a {
     position: relative;
     width: 100%;
     height: 100vh;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .titre_service {
     position: absolute;
@@ -374,8 +369,7 @@ footer .no5 a {
     position: relative;
     width: 100%;
     height: 100vh;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .titre_service {
     position: absolute;
@@ -489,8 +483,7 @@ footer .no5 a {
   position: relative;
   width: 100%;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .titre_detail {
@@ -541,8 +534,7 @@ footer .no5 a {
 }
 .defi img.defi_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .defi .developpement_desc {
@@ -563,8 +555,7 @@ footer .no5 a {
 }
 .axes img.axes_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -583,8 +574,7 @@ footer .no5 a {
 }
 .aide .aide_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .aide .aide_desc {
@@ -667,14 +657,12 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-center {
