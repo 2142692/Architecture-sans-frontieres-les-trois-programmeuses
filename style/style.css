@@ -8,6 +8,9 @@ body {
   border: none;
   border-radius: 0%;
 }
+.card .card-header {
+  border: none;
+}
 
 .btn {
   background-color: #7260E6;
@@ -223,30 +226,53 @@ footer .no5 a {
 }
 #section-nouvelles .card {
   background-color: #b3cee0;
-  box-shadow: none;
-  height: 80vh;
-  margin-bottom: 70px;
-  border: none;
-  border-radius: 0%;
-  font-size: 15px;
-  text-align: left;
+  height: 100%;
 }
-#section-nouvelles .card .card-title {
-  font-size: 20px;
-}
-
-#section-hero-nouvelle {
-  display: flex;
-  justify-content: center;
-}
-#section-hero-nouvelle .hero-nouvelle {
+#section-nouvelles .card img {
+  width: 100%;
+  height: 312px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 3250px;
-  height: 100vh;
-  margin-top: -48px;
+}
+#section-nouvelles .card button {
+  margin: 20px;
 }
 
+#hero_nouvelles {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#hero_nouvelles img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero_nouvelles .titre_nouvelles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_nouvelles .titre_nouvelles .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_nouvelles .titre_nouvelles .desc {
+  color: #16077a;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  #hero_nouvelles .titre_nouvelles {
+    width: 80%;
+    height: 60%;
+  }
+}
 .accordion-button.collapsed::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
@@ -278,18 +304,41 @@ footer .no5 a {
   color: #16077a;
 }
 
-#section-hero-propos {
-  display: flex;
-  justify-content: center;
+#hero_about {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
-#section-hero-propos .hero-propos {
+#hero_about img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 3250px;
-  height: 100vh;
-  margin-top: -48px;
+}
+#hero_about .titre_about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_about .titre_about .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_about .titre_about .desc {
+  color: #16077a;
+  font-size: 30px;
 }
 
+@media screen and (max-width: 500px) {
+  #hero_about .titre_about {
+    width: 80%;
+    height: 60%;
+  }
+}
 #section-propos .card img {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -320,77 +369,39 @@ footer .no5 a {
   color: #280aeb;
 }
 
-/*Page service hero maika*/
-@media screen and (min-width: 300px) {
-  .hero_service {
-    position: relative;
-    width: 100%;
-    height: 70vh;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .titre_service {
-    position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
-    width: 100%;
-    max-width: 50%;
-    padding: 30px;
-    top: 100px;
-    left: 140px;
-  }
-  .first_titre {
-    font-size: 30px;
-  }
-  .desc {
-    font-size: 20px;
-  }
+#hero_services {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
-@media screen and (min-width: 700px) {
-  .hero_service {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .titre_service {
-    position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
-    width: 100%;
-    max-width: 50%;
-    padding: 50px;
-    top: 200px;
-    left: 200px;
-  }
-  .first_titre {
-    font-size: 40px;
-  }
-  .desc {
-    font-size: 20px;
-  }
+#hero_services img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-@media screen and (min-width: 900px) {
-  .hero_service {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .titre_service {
-    position: absolute;
-    background-color: rgba(178, 175, 213, 0.8274509804);
-    width: 100%;
-    max-width: 50%;
-    padding: 50px;
-    top: 200px;
-    left: 200px;
-  }
-  .first_titre {
-    font-size: 60px;
-  }
-  .desc {
-    font-size: 30px;
+#hero_services .titre_services {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_services .titre_services .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_services .titre_services .desc {
+  color: #16077a;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  #hero_services .titre_services {
+    width: 80%;
+    height: 60%;
   }
 }
 /*Page service container maika*/
@@ -631,16 +642,40 @@ footer .no5 a {
 }
 
 #hero_histoire {
+  position: relative;
   width: 100vw;
   height: 100vh;
 }
-#hero_histoire .img {
+#hero_histoire img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
+#hero_histoire .titre_histoire {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_histoire .titre_histoire .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_histoire .titre_histoire .desc {
+  color: #16077a;
+  font-size: 30px;
+}
 
+@media screen and (max-width: 500px) {
+  #hero_histoire .titre_histoire {
+    width: 80%;
+    height: 60%;
+  }
+}
 #histoire .titre {
   color: #280aeb;
 }
