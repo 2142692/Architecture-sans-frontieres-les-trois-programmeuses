@@ -23,7 +23,13 @@ hamburger.addEventListener('mouseenter', () => {
 const mask = document.querySelector('#groupe');
 
 const section = document.querySelector('.histoire_desc');
-
+const desc1 = document.querySelector('.desc1');
+const desc2 = document.querySelector('.desc2');
+const desc3 = document.querySelector('.desc3');
+const desc4 = document.querySelector('.desc4');
+const desc5 = document.querySelector('.desc5');
+const desc6 = document.querySelector('.desc6');
+const desc7 = document.querySelector('.desc7');
 /*let scrollOne = gsap.to(sections, {
     yPercent: -100 * (sections.length - 1),
     ease: "none",
@@ -39,9 +45,93 @@ gsap.to(mask, {
     height: "100%",
     scrollTrigger:{
         trigger: section,
-        markers: "true",
-        start: "9% 24%",
-        end: "50%",
+        
+        start: "0% 24%",
+        end: "80%",
         scrub:1,
     }
-})
+});
+
+gsap.fromTo(desc1, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+ 
+  start: "0% 24%",
+  end: "0% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc2, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+  
+  start: "9% 24%",
+  end: "9% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc3, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+ 
+  start: "18% 24%",
+  end: "18% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc4, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+  
+  start: "28% 24%",
+  end: "28% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc5, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+  
+  start: "41% 24%",
+  end: "41% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc6, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+ 
+  start: "56% 24%",
+  end: "56% 24%",
+  scrub:1,
+}});
+
+gsap.fromTo(desc7, {
+  opacity: "0%",
+ 
+}, {opacity:"100%",
+ scrollTrigger:{
+  trigger: section,
+  
+  start: "85% 24%",
+  end: "85% 24%",
+  scrub:1,
+}});

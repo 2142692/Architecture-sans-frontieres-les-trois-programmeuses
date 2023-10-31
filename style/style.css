@@ -86,8 +86,7 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -231,8 +230,7 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-nouvelles .card button {
   margin: 20px;
@@ -246,8 +244,7 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -312,8 +309,7 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -377,8 +373,7 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -500,8 +495,7 @@ footer .no5 a {
   position: relative;
   width: 100%;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .titre_detail {
@@ -552,8 +546,7 @@ footer .no5 a {
 }
 .defi img.defi_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .defi .developpement_desc {
@@ -574,8 +567,7 @@ footer .no5 a {
 }
 .axes img.axes_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -594,8 +586,7 @@ footer .no5 a {
 }
 .aide .aide_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .aide .aide_desc {
@@ -649,8 +640,7 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -680,12 +670,151 @@ footer .no5 a {
   color: #280aeb;
 }
 
+.histoire_desc {
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
 .histoire_desc svg {
   width: 40px;
   height: 1000px;
 }
 .histoire_desc svg #groupe {
   height: 0%;
+}
+@media screen and (min-width: 100px) {
+  .histoire_desc p {
+    background-color: #7260E6;
+    width: 50%;
+    position: absolute;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+  }
+  .histoire_desc p.desc1 {
+    width: 40%;
+    left: 7%;
+    top: 149%;
+  }
+  .histoire_desc p.desc2 {
+    width: 40%;
+    right: 7%;
+    top: 170%;
+  }
+  .histoire_desc p.desc3 {
+    width: 40%;
+    left: 7%;
+    top: 194%;
+  }
+  .histoire_desc p.desc4 {
+    width: 40%;
+    right: 7%;
+    top: 226%;
+  }
+  .histoire_desc p.desc5 {
+    width: 40%;
+    left: 7%;
+    top: 250%;
+  }
+  .histoire_desc p.desc6 {
+    width: 40%;
+    right: 7%;
+    top: 272%;
+  }
+  .histoire_desc p.desc7 {
+    width: 40%;
+    left: 7%;
+    top: 297%;
+  }
+}
+@media screen and (min-width: 387px) {
+  .histoire_desc p {
+    background-color: #7260E6;
+    width: 50%;
+    position: absolute;
+    font-size: 13px;
+    padding: 19px;
+    text-align: center;
+  }
+  .histoire_desc p.desc1 {
+    width: 40%;
+    left: 7%;
+    top: 146%;
+  }
+  .histoire_desc p.desc2 {
+    width: 40%;
+    right: 7%;
+    top: 172%;
+  }
+  .histoire_desc p.desc3 {
+    width: 40%;
+    left: 7%;
+    top: 195%;
+  }
+  .histoire_desc p.desc4 {
+    width: 40%;
+    right: 7%;
+    top: 220%;
+  }
+  .histoire_desc p.desc5 {
+    width: 40%;
+    left: 7%;
+    top: 245%;
+  }
+  .histoire_desc p.desc6 {
+    width: 40%;
+    right: 7%;
+    top: 268%;
+  }
+  .histoire_desc p.desc7 {
+    width: 40%;
+    left: 7%;
+    top: 292%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .histoire_desc p {
+    background-color: #7260E6;
+    width: 50%;
+    position: absolute;
+    font-size: 13px;
+    padding: 19px;
+    text-align: center;
+  }
+  .histoire_desc p.desc1 {
+    width: 40%;
+    left: 7%;
+    top: 148%;
+  }
+  .histoire_desc p.desc2 {
+    width: 40%;
+    right: 7%;
+    top: 172%;
+  }
+  .histoire_desc p.desc3 {
+    width: 40%;
+    left: 7%;
+    top: 196%;
+  }
+  .histoire_desc p.desc4 {
+    width: 40%;
+    right: 7%;
+    top: 222%;
+  }
+  .histoire_desc p.desc5 {
+    width: 40%;
+    left: 7%;
+    top: 246%;
+  }
+  .histoire_desc p.desc6 {
+    width: 40%;
+    right: 7%;
+    top: 270%;
+  }
+  .histoire_desc p.desc7 {
+    width: 40%;
+    left: 7%;
+    top: 294%;
+  }
 }
 
 .loader {
@@ -702,14 +831,12 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-center {
