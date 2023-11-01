@@ -86,7 +86,8 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -181,7 +182,6 @@ li button {
 
 footer {
   color: #280aeb;
-  background-color: #B3CEE0;
 }
 footer .footer {
   display: grid;
@@ -189,6 +189,7 @@ footer .footer {
   grid-template-rows: repeat(6, auto);
   justify-items: center;
   gap: 40px;
+  background-color: #B3CEE0;
 }
 footer .no2 a {
   color: #280aeb !important;
@@ -230,7 +231,8 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #section-nouvelles .card button {
   margin: 20px;
@@ -244,7 +246,8 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -309,7 +312,8 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -373,7 +377,8 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -495,7 +500,8 @@ footer .no5 a {
   position: relative;
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .titre_detail {
@@ -546,7 +552,8 @@ footer .no5 a {
 }
 .defi img.defi_detail {
   margin: 50px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
 }
 .defi .developpement_desc {
@@ -567,7 +574,8 @@ footer .no5 a {
 }
 .axes img.axes_detail {
   margin: 50px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -586,7 +594,8 @@ footer .no5 a {
 }
 .aide .aide_detail {
   margin: 50px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
 }
 .aide .aide_desc {
@@ -640,7 +649,8 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -831,12 +841,14 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-center {
@@ -865,6 +877,13 @@ footer .no5 a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#service-defi .img-defi {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
