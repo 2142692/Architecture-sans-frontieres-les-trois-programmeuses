@@ -86,8 +86,7 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -231,8 +230,7 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-nouvelles .card button {
   margin: 20px;
@@ -246,8 +244,7 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -312,8 +309,7 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -377,8 +373,7 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -405,6 +400,7 @@ footer .no5 a {
   }
 }
 /*Page service container maika*/
+/*Page service container maika
 @media screen and (min-height: 100px) {
   #services .card {
     background-color: #b3cee0;
@@ -416,26 +412,32 @@ footer .no5 a {
     border: none;
     border-radius: 0%;
   }
+
   #services .logo-service {
     margin-left: 10px;
     position: absolute;
     z-index: 1;
   }
+
   #services .card-title {
     color: #280aeb;
   }
+
   #section-services button {
     margin: 20px;
     border-radius: 0%;
   }
+
   #services img.card-img-top {
     position: relative;
     height: 60vh;
   }
+
   #services a.details button {
     width: 100%;
   }
 }
+
 @media screen and (min-height: 600px) {
   #services .card {
     background-color: #b3cee0;
@@ -447,26 +449,32 @@ footer .no5 a {
     border: none;
     border-radius: 0%;
   }
+
   #services .logo-service {
     margin-left: 10px;
     position: absolute;
     z-index: 1;
   }
+
   #services .card-title {
     color: #280aeb;
   }
+
   #section-services button {
     margin: 20px;
     border-radius: 0%;
   }
+
   #services img.card-img-top {
     position: relative;
     height: 30vh;
   }
+
   #services a.details button {
     width: 100%;
   }
 }
+
 @media screen and (min-height: 700px) {
   #services .card {
     background-color: #b3cee0;
@@ -479,29 +487,55 @@ footer .no5 a {
     border-radius: 0%;
     border-radius: 5%;
   }
+
   #services .logo-service {
     margin-left: 10px;
     position: absolute;
     z-index: 1;
   }
+
   #services .card-title {
     color: #280aeb;
   }
+
   #services img.card-img-top {
     position: relative;
     height: 35vh;
   }
+
   #services a.details button {
     width: 100%;
   }
 }
+*/
+#services .card-title {
+  color: #280aeb;
+}
+
+#services .card {
+  margin: none;
+  background-color: #b3cee0;
+}
+
+#services img.card-img-top {
+  position: relative;
+}
+
+#services .logo-service {
+  position: absolute;
+  z-index: 1;
+}
+
+#services a.details button {
+  width: 100%;
+}
+
 /*detail services hero*/
 .hero_detail {
   position: relative;
   width: 100%;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .titre_detail {
@@ -552,8 +586,7 @@ footer .no5 a {
 }
 .defi img.defi_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .defi .developpement_desc {
@@ -574,8 +607,7 @@ footer .no5 a {
 }
 .axes img.axes_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -594,8 +626,7 @@ footer .no5 a {
 }
 .aide .aide_detail {
   margin: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .aide .aide_desc {
@@ -649,8 +680,7 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -837,14 +867,12 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260E6;
 }
 .loader .clip-center {

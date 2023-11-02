@@ -524,7 +524,7 @@ footer {
 
 // --- FIN Hub de services ---
 
-/*Page service container maika*/
+/*Page service container maika
 @media screen and (min-height: 100px) {
   #services .card {
     background-color: #b3cee0;
@@ -630,6 +630,31 @@ footer {
   #services a.details button {
     width: 100%;
   }
+}
+*/
+
+#services .card-title {
+  color: #280aeb;
+}
+
+#services .card {
+  margin:none;
+  background-color: #b3cee0;
+}
+
+#services img.card-img-top {
+  position: relative;
+  
+}
+
+#services .logo-service {
+  
+  position: absolute;
+  z-index: 1;
+}
+
+#services a.details button {
+  width: 100%;
 }
 
 /*detail services hero*/
