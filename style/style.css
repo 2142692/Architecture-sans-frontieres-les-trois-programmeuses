@@ -18,10 +18,11 @@ body {
   border-radius: 0%;
 }
 .btn:hover {
-  background-color: #9B91E1;
+  background-color: #9b91e1;
 }
 
-h2, h3,
+h2,
+h3,
 h5 {
   color: #280aeb;
 }
@@ -38,7 +39,7 @@ h5 {
 }
 
 nav {
-  background-color: #B3CEE0;
+  background-color: #b3cee0;
 }
 nav .navbar-toggler {
   border: none;
@@ -97,7 +98,7 @@ li button {
 }
 .hero .swiper-pagination-bullet-active {
   width: 30px;
-  background: #7260E6;
+  background: #7260e6;
 }
 
 @media screen and (min-width: 375px) {
@@ -189,7 +190,7 @@ footer .footer {
   grid-template-rows: repeat(6, auto);
   justify-items: center;
   gap: 40px;
-  background-color: #B3CEE0;
+  background-color: #b3cee0;
 }
 footer .no2 a {
   color: #280aeb !important;
@@ -236,6 +237,9 @@ footer .no5 a {
 }
 #section-nouvelles .card button {
   margin: 20px;
+}
+#section-nouvelles .card .more {
+  width: 170px;
 }
 
 #hero_nouvelles {
@@ -344,7 +348,7 @@ footer .no5 a {
   padding-bottom: 15px;
 }
 #section-propos .organisme {
-  width: 10vw;
+  margin-top: 130px;
 }
 #section-propos .reseau {
   width: 10vw;
@@ -581,7 +585,7 @@ footer .no5 a {
 
 /*Défi service-detail*/
 .defi {
-  background-color: #8DB6D0;
+  background-color: #8db6d0;
   display: block;
 }
 .defi h1 {
@@ -628,7 +632,7 @@ footer .no5 a {
 
 /*Aide detail service*/
 .aide {
-  background-color: #7260E6;
+  background-color: #7260e6;
 }
 .aide .aide_detail {
   margin: 50px;
@@ -727,7 +731,7 @@ footer .no5 a {
 }
 @media screen and (min-width: 100px) {
   .histoire_desc p {
-    background-color: #7260E6;
+    background-color: #7260e6;
     width: 50%;
     position: absolute;
     font-size: 13px;
@@ -772,7 +776,7 @@ footer .no5 a {
 }
 @media screen and (min-width: 387px) {
   .histoire_desc p {
-    background-color: #7260E6;
+    background-color: #7260e6;
     width: 50%;
     position: absolute;
     font-size: 13px;
@@ -817,7 +821,7 @@ footer .no5 a {
 }
 @media screen and (min-width: 1300px) {
   .histoire_desc p {
-    background-color: #7260E6;
+    background-color: #7260e6;
     width: 50%;
     position: absolute;
     font-size: 13px;
@@ -877,13 +881,13 @@ footer .no5 a {
   top: 0;
   -webkit-clip-path: inset(0 0 0 0);
           clip-path: inset(0 0 0 0);
-  background: #7260E6;
+  background: #7260e6;
 }
 .loader .clip-bottom {
   bottom: 0;
   -webkit-clip-path: inset(0 0 0 0);
           clip-path: inset(0 0 0 0);
-  background: #7260E6;
+  background: #7260e6;
 }
 .loader .clip-center {
   overflow: hidden;
@@ -952,7 +956,10 @@ footer .no5 a {
   color: #16077a;
 }
 
-#service_defi img, #service_intervention img, #service_affiliation img, #service_partenaires img {
+#service_defi img,
+#service_intervention img,
+#service_affiliation img,
+#service_partenaires img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
