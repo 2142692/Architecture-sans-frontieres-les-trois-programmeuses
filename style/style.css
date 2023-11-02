@@ -405,7 +405,6 @@ footer .no5 a {
   }
 }
 /*Page service container maika*/
-/*
 @media screen and (min-height: 100px) {
   #services .card {
     background-color: #b3cee0;
@@ -472,7 +471,7 @@ footer .no5 a {
   #services .card {
     background-color: #b3cee0;
     box-shadow: none;
-    height: 10%;
+    height: 70vh;
     max-width: 1000px;
     margin: 10px;
     margin-top: 40px;
@@ -496,34 +495,6 @@ footer .no5 a {
     width: 100%;
   }
 }
-
-#services .card {
-  background-color: #b3cee0;
-  
-  height: 100%;
- 
-  margin: 10px;
-  margin-top: 40px;
-  border: none;
-  border-radius: 0%;
-  border-radius: 5%;
-}
-#services .logo-service {
-  margin-left: 10px;
-  position: absolute;
-  z-index: 1;
-}
-#services .card-title {
-  color: #280aeb;
-}
-#services img.card-img-top {
-  position: relative;
-  height: 50%;
-}*/
-#services a.details button {
-  width: 100%;
-}
-
 /*detail services hero*/
 .hero_detail {
   position: relative;
@@ -693,10 +664,6 @@ footer .no5 a {
 #hero_histoire .titre_histoire .titre {
   color: #000;
   font-size: 60px;
-}
-#hero_histoire .titre_histoire .desc {
-  color: #16077a;
-  font-size: 30px;
 }
 
 @media screen and (max-width: 500px) {
@@ -908,11 +875,97 @@ footer .no5 a {
   align-items: center;
 }
 
-#service-defi .img-defi {
+#hero_service_detail {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#hero_service_detail .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero_service_detail .titre_service_detail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_service_detail .titre_service_detail .service_logo {
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#hero_service_detail .titre_service_detail .titre {
+  color: #000;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  #hero_service_detail .titre_service_detail .titre {
+    font-size: 35px;
+  }
+}
+#texte h2 {
+  color: #16077a;
+}
+
+#service_defi img, #service_intervention img, #service_affiliation img, #service_partenaires img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  max-width: 400px;
 }
 
+#service_defi {
+  background-color: #cdccd8;
+}
+#service_defi .card {
+  background-color: #cdccd8;
+}
+
+#service_affiliation {
+  background-color: #cdccd8;
+}
+#service_affiliation .card {
+  background-color: #cdccd8;
+}
+#service_affiliation .card img {
+  max-width: 250px;
+  max-height: 250px;
+}
+#service_affiliation .card a {
+  color: #280aeb !important;
+  text-decoration: none;
+}
+
+#service_partenaires .partenaires {
+  display: grid;
+  grid-template-columns: repeat(3, 21vh);
+  gap: 20px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #service_partenaires .partenaires {
+    grid-template-columns: 45vh;
+    grid-template-rows: repeat(3, 15vh);
+  }
+  #service_partenaires .partenaires img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #service_partenaires .partenaires {
+    gap: 75px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
