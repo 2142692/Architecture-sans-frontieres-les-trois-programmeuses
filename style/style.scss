@@ -633,30 +633,43 @@ footer {
 }
 */
 
-#services .card-title {
+#services{ 
+  .card-title {
   color: #280aeb;
 }
 
-#services .card {
+.card {
   margin:none;
   background-color: #b3cee0;
 }
 
-#services img.card-img-top {
+img{
+  &.card-img-top {
   position: relative;
   
 }
+}
 
-#services .logo-service {
+ .logo-service {
   
   position: absolute;
   z-index: 1;
 }
 
-#services a.details button {
+a{
+  &.details button {
   width: 100%;
+  }
 }
 
+.btn {
+  &.btn-primary{
+    width: 100%;
+
+}
+}
+
+}
 /*detail services hero*/
 
 .hero_detail {

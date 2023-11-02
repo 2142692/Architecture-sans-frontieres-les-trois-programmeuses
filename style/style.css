@@ -510,22 +510,21 @@ footer .no5 a {
 #services .card-title {
   color: #280aeb;
 }
-
 #services .card {
   margin: none;
   background-color: #b3cee0;
 }
-
 #services img.card-img-top {
   position: relative;
 }
-
 #services .logo-service {
   position: absolute;
   z-index: 1;
 }
-
 #services a.details button {
+  width: 100%;
+}
+#services .btn.btn-primary {
   width: 100%;
 }
 
