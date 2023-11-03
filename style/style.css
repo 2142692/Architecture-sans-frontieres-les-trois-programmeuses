@@ -349,28 +349,43 @@ footer .no5 a {
 }
 #section-propos .organisme {
   margin-top: 130px;
+  margin-left: 25px;
 }
 #section-propos .reseau {
-  width: 10vw;
+  margin-top: 90px;
+  margin-left: 25px;
 }
 #section-propos .expert {
   width: 30vw;
-  padding-left: 18px;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+#section-propos .approche {
+  width: 30vw;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 #section-propos .intervention {
-  width: 30vw;
-  padding-left: 18px;
+  width: 22vw;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 #section-propos .impact {
   width: 30vw;
-  padding-left: 18px;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 #section-propos .first {
-  width: 10vw;
+  width: 30vw;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 #section-propos h4 {
   padding-top: 10px;
   color: #280aeb;
+}
+#section-propos h2 {
+  padding-top: 25px;
 }
 
 #hero_services {

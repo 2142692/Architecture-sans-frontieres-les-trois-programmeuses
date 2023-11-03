@@ -444,34 +444,51 @@ footer {
 
   .organisme {
     margin-top: 130px;
+    margin-left: 25px;
   }
 
   .reseau {
-    width: 10vw;
+    margin-top: 90px;
+    margin-left: 25px;
   }
 
   .expert {
     width: 30vw;
-    padding-left: 18px;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+
+  .approche {
+    width: 30vw;
+    margin-top: 50px;
+    margin-left: 25px;
   }
 
   .intervention {
-    width: 30vw;
-    padding-left: 18px;
+    width: 22vw;
+    margin-top: 50px;
+    margin-left: 25px;
   }
 
   .impact {
     width: 30vw;
-    padding-left: 18px;
+    margin-top: 50px;
+    margin-left: 25px;
   }
 
   .first {
-    width: 10vw;
+    width: 30vw;
+    margin-top: 25px;
+    margin-left: 25px;
   }
 
   h4 {
     padding-top: 10px;
     color: #280aeb;
+  }
+
+  h2 {
+    padding-top: 25px;
   }
 }
 
