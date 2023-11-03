@@ -533,114 +533,8 @@ footer {
 
 // --- FIN Hub de services ---
 
-/*Page service container maika
-@media screen and (min-height: 100px) {
-  #services .card {
-    background-color: #b3cee0;
-    box-shadow: none;
-    height: 160vh;
-    max-width: 1000px;
-    margin: 40px;
-    margin-top: 40px;
-    border: none;
-    border-radius: 0%;
-  }
+/*Page service container maika*/
 
-  #services .logo-service {
-    margin-left: 10px;
-    position: absolute;
-    z-index: 1;
-  }
-
-  #services .card-title {
-    color: #280aeb;
-  }
-
-  #section-services button {
-    margin: 20px;
-    border-radius: 0%;
-  }
-
-  #services img.card-img-top {
-    position: relative;
-    height: 60vh;
-  }
-
-  #services a.details button {
-    width: 100%;
-  }
-}
-
-@media screen and (min-height: 600px) {
-  #services .card {
-    background-color: #b3cee0;
-    box-shadow: none;
-    height: 80vh;
-    max-width: 1000px;
-    margin: 40px;
-    margin-top: 40px;
-    border: none;
-    border-radius: 0%;
-  }
-
-  #services .logo-service {
-    margin-left: 10px;
-    position: absolute;
-    z-index: 1;
-  }
-
-  #services .card-title {
-    color: #280aeb;
-  }
-
-  #section-services button {
-    margin: 20px;
-    border-radius: 0%;
-  }
-
-  #services img.card-img-top {
-    position: relative;
-    height: 30vh;
-  }
-
-  #services a.details button {
-    width: 100%;
-  }
-}
-
-@media screen and (min-height: 700px) {
-  #services .card {
-    background-color: #b3cee0;
-    box-shadow: none;
-    height: 70vh;
-    max-width: 1000px;
-    margin: 10px;
-    margin-top: 40px;
-    border: none;
-    border-radius: 0%;
-    border-radius: 5%;
-  }
-
-  #services .logo-service {
-    margin-left: 10px;
-    position: absolute;
-    z-index: 1;
-  }
-
-  #services .card-title {
-    color: #280aeb;
-  }
-
-  #services img.card-img-top {
-    position: relative;
-    height: 35vh;
-  }
-
-  #services a.details button {
-    width: 100%;
-  }
-}
-*/
 
 #services {
   .card-title {
@@ -888,7 +782,7 @@ footer {
 
 .histoire_desc {
   margin-top: 90px;
-  margin-bottom: 120px;
+  margin-bottom: 300px;
   svg {
     width: 40px;
     height: 1000px;
@@ -897,6 +791,79 @@ footer {
     }
   }
 
+  p {
+    background-color: #7260e6;
+    width: 50%;
+    position: absolute;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+
+    &.desc1 {
+      width: 40%;
+      left: 7%;
+      top: 134%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc2 {
+      width: 40%;
+      right: 7%;
+      top: 151%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc3 {
+      width: 40%;
+      left: 7%;
+      top: 168%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc4 {
+      width: 40%;
+      right: 7%;
+      top: 184%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc5 {
+      width: 40%;
+      left: 7%;
+      top: 202%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc6 {
+      width: 40%;
+      right: 7%;
+      top: 219%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc7 {
+      width: 40%;
+      left: 7%;
+      top: 237%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+  }
+
+/*
   @media screen and (min-width: 100px) {
     p {
       background-color: #7260e6;
@@ -1075,7 +1042,7 @@ footer {
         top: 294%;
       }
     }
-  }
+  }*/
 }
 
 // --- FIN Histoire ---
