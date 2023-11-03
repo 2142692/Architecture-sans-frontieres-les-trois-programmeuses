@@ -433,49 +433,135 @@ footer {
 }
 
 #section-propos {
-  .card img {
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+  overflow-x: hidden;
+
+  .text-raison .card {
+    background-color: #cdccd8;
   }
 
-  .organisme {
-    margin-top: 130px;
-    margin-left: 25px;
+  .text-raison {
+    background-color: #cdccd8;
+   
+  }
+ 
+  .text-mission .card {
+    background-color: #cdccd8;
   }
 
-  .reseau {
-    margin-top: 90px;
-    margin-left: 25px;
+  .text-mission {
+    background-color: #cdccd8;
+   
   }
 
-  .expert {
-    width: 30vw;
-    margin-top: 60px;
-    margin-left: 25px;
+  .text-valeur .card {
+    background-color: #cdccd8;
   }
 
-  .approche {
-    width: 30vw;
-    margin-top: 50px;
-    margin-left: 25px;
+  .text-valeur {
+    background-color: #cdccd8;
+   
   }
 
-  .intervention {
-    width: 22vw;
-    margin-top: 50px;
-    margin-left: 25px;
+  .text-approche .card {
+    background-color: #cdccd8;
   }
 
-  .impact {
-    width: 30vw;
-    margin-top: 50px;
-    margin-left: 25px;
+  .text-approche {
+    background-color: #cdccd8;
+   
   }
 
-  .first {
-    width: 30vw;
-    margin-top: 25px;
-    margin-left: 25px;
+  .text-intervention .card {
+    background-color: #cdccd8;
+  }
+
+  .text-intervention {
+    background-color: #cdccd8;
+   
+  }
+
+  .text-first .card {
+    background-color: #cdccd8;
+  }
+
+  .text-first {
+    background-color: #cdccd8;
+   
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: 400px;
+  
+  }
+
+
+  img {
+    &.organisme {
+    
+      padding-right: 40px;
+      padding-left: 40px;
+     
+      min-width: 35vw;
+    }
+
+    &.reseau {
+    
+      padding-right: 40px;
+      padding-left: 40px;
+      min-width: 35vw;
+  
+     }
+
+     &.expert {
+
+      padding-right: 30px;
+      padding-left: 30px;
+      min-width: 40vw;
+    
+  
+  
+     }
+
+     &.approche {
+    
+    
+      padding-right: 40px;
+      padding-left: 40px;
+      min-width: 35vw;
+      
+    
+  
+     }
+
+     &.intervention {
+      
+      padding-right: 45px;
+      padding-left: 45px;
+      min-width: 25vw;
+      
+  
+     }
+
+     &.impact {
+    
+      padding-right: 30px;
+      padding-left: 30px;
+      min-width: 25vw;
+ 
+    }
+
+    &.first {
+    
+      padding-right: 40px;
+      padding-left: 40px;
+      min-width: 25vw;
+  
+     }
+
+    
   }
 
   h4 {
@@ -487,6 +573,8 @@ footer {
     padding-top: 25px;
   }
 }
+
+// --- Fin À Propos ---
 
 // --- DÉBUT Hub de services ---
 
@@ -721,126 +809,7 @@ footer {
   font-weight: bold;
 }
 
-/*Défi service-detail*/
-.defi {
-  background-color: #8db6d0;
-  display: block;
-  h1 {
-    font-size: 250%;
-    text-align: center;
-  }
 
-  img {
-    &.defi_detail {
-      margin: 50px;
-      object-fit: cover;
-      height: 100%;
-    }
-  }
-
-  .developpement_desc {
-    font-size: 140%;
-  }
-
-  .coop {
-    margin-left: 50px;
-  }
-
-  .coop_desc {
-    margin-left: 50px;
-    padding-bottom: 50px;
-    font-size: 140%;
-  }
-}
-
-/*Axes d'itervention*/
-.axes {
-  h1 {
-    text-align: center;
-  }
-
-  img {
-    &.axes_detail {
-      margin: 50px;
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-  }
-
-  .projets_desc {
-    font-size: 120%;
-  }
-
-  .p_trois {
-    font-size: 120%;
-    margin-left: 25px;
-    padding-bottom: 30px;
-  }
-}
-
-/*Aide detail service*/
-.aide {
-  background-color: #7260e6;
-  .aide_detail {
-    margin: 50px;
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .aide_desc {
-    font-size: 140%;
-    color: #fff;
-  }
-}
-
-/*Affiliation service detail*/
-.affiliation {
-  padding: 50px;
-  margin-bottom: 90px;
-  background-color: #c9c2f9;
-
-  img {
-    &.affiliation_detail {
-      margin: 50px;
-    }
-  }
-
-  .affiliation_desc {
-    font-size: 120%;
-  }
-
-  .affiliation h2 {
-    margin-left: 10px;
-  }
-}
-
-/*Partenaires*/
-
-.partenaires {
-  background-color: white;
-  padding: 50px;
-  margin-top: -100px;
-
-  h1 {
-    padding-bottom: 20px;
-  }
-
-  .card {
-    width: 20%;
-    background-color: #eeecff;
-    text-align: center;
-    margin-left: 100px;
-    margin-top: -50px;
-
-    .card-img-top {
-      width: 50%;
-
-      text-align: center;
-      margin-left: 60px;
-    }
-  }
-}
 
 // --- DÉBUT Histoire ---
 
