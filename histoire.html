@@ -1,95 +1,181 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <header>
+      <!-- Bannière -->
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong class="me-2"
+          >Ce site a été réalisé à des fins entièrement pédagogiques.</strong
+        >
+        <a href="https://www.asf-quebec.org/">
+          <button
+            type="button"
+            class="btn btn-primary"
+            href="https://www.asf-quebec.org/"
+          >
+            Visiter le site officiel
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </button>
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
 
-        <!-- Bannière -->
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong class="me-2">Ce site a été réalisé à des fins entièrement pédagogiques.</strong> 
-            <a href="https://www.asf-quebec.org/">
-                <button type="button" class="btn btn-primary" href="https://www.asf-quebec.org/">Visiter le site officiel
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
+      <!-- Navbar -->
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+          <!-- Logo -->
+          <a
+            class="navbar-brand"
+            value="href"
+            onclick="location.href='index.html'"
+          >
+            <img
+              src="sources/medias/accueil/logos/logo_site.png"
+              width="175px"
+              height="65px"
+            />
+          </a>
+
+          <!-- Hamburger -->
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Affichage/masquage de la navigation"
+          >
+            <svg
+              viewBox="0 0 12 10"
+              class="hamburger"
+              height="30px"
+              width="50px"
+            >
+              <path
+                d="M10,2 L2,2"
+                class="upper"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+              <path
+                d="M2,5 L10,5"
+                class="middle"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+              <path
+                d="M10,8 L2,8"
+                class="lower"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+            </svg>
+          </button>
+
+          <!-- Navigation -->
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no1" href="a_propos.html"
+                  >À propos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no2" href="services.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no3" href="nouvelles.html"
+                  >Nouvelles</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no4" href="histoire.html"
+                  >Histoire</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no5" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn btn-primary me-3"
+                  value="href"
+                  onclick="location.href='don.html'"
+                >
+                  Contribuez
                 </button>
-            </a>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </li>
+              <li class="nav-item">
+                <a href="page-5.html" class="nav-link me-3">EN</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <!-- Navbar -->
-        <nav class="navbar navbar-light navbar-expand-lg">
-            <div class="container">
-
-            <!-- Logo -->
-              <a class="navbar-brand" value="href" onclick="location.href='index.html'">
-                <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
-              </a>
-
-              <!-- Hamburger -->
-              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                <svg viewBox="0 0 12 10" class="hamburger" height="30px" width="50px">
-                    <path d="M10,2 L2,2" class="upper" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
-                    <path d="M2,5 L10,5" class="middle" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
-                    <path d="M10,8 L2,8" class="lower" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>   
-                </svg>
-              </button>
-              
-
-              <!-- Navigation -->
-              <div id="mainNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav d-flex align-items-end">
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no1" href="a_propos.html">À propos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no2"  href="services.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no3" href="nouvelles.html">Nouvelles</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no4" href="histoire.html">Histoire</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no5" href="faq.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-primary me-3" value="href" onclick="location.href='don.html'">Contribuez</button>
-                  </li>
-                  <li class="nav-item">
-                    <a href="page-5.html" class="nav-link me-3">EN</a>
-                  </li>
-                </ul>
-              </div>  
-            </div>
-        </nav>
+      </nav>
     </header>
 
-<main>
-  <section id="hero_histoire">
-    <img class="img" src="../sources/medias/histoire/hero_image_histoire.jpg" alt="" />
+    <main>
+      <section id="hero_histoire">
+        <img
+          class="img"
+          src="../sources/medias/histoire/hero_image_histoire.jpg"
+          alt=""
+        />
 
-    <div class="titre_histoire d-flex flex-column justify-content-center p-2">
-      <h2 class="titre text-center mb-4">Notre histoire</h2>
-  </div>
-  </section>
-  
-  <section id="histoire">
-    <div class="container">
-      <h1 class="titre d-flex justify-content-center m-5">Historique</h1>
-      <!-- <p>Architectes Sans Frontières est fondée en 1979 par Pierre Allard, Architecte.</p>
+        <div
+          class="titre_histoire d-flex flex-column justify-content-center p-2"
+        >
+          <h2 class="titre text-center mb-4">Notre histoire</h2>
+        </div>
+      </section>
+
+      <section id="histoire">
+        <div class="container">
+          <h1 class="titre d-flex justify-content-center m-5">Historique</h1>
+          <!-- <p>Architectes Sans Frontières est fondée en 1979 par Pierre Allard, Architecte.</p>
       <p>Sa première action a été de porter assistance aux Tchadiens
           ayant fui dans l’urgence les conflits dans leur pays pour se
           réfugier au Nord Cameroun.</p>
@@ -135,12 +221,10 @@
         
       <p>En 2008, Architecture Sans Frontières Québec est créé.</p>
     -->
+        </div>
+      </section>
 
-    
-    </div>
-  </section>
-
-  <!--
+      <!--
     1979 : Fondement d’Architecture Sans Frontières par l’architecte Pierre Allard
     Années 80 : Développement et engagement de l’association dans différents programmes portant sur le logement
     1989 : Présence d’Architectes Sans Frontières dans des pays tels que le Kurdistan iranien, le Vietnam, le Brésil, le Cameroun et le Mozambique
@@ -149,97 +233,239 @@
     2007 : Création d’Architecture Sans Frontières International
     2008 : Création d’Architecture Sans Frontières Québec
   -->
-  
-<div class="histoire_desc">
-  
-  <div class="d-flex justify-content-center m-5">
-    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="4190" viewBox="0 0 62 4190" fill="none">
-      <g id="ligne_du_temps">
-      <g id="back_line">
-      <path id="ligne" d="M31 62L31 4180" stroke="#B3CEE0" stroke-width="20" stroke-linecap="round"/>
-      <circle id="cercle_1" cx="31" cy="31" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_2" cx="31" cy="3471" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_3" cx="31" cy="4159" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_4" cx="31" cy="2783" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_5" cx="31" cy="2095" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_6" cx="31" cy="1407" r="31" fill="#B3CEE0"/>
-      <circle id="cercle_7" cx="31" cy="719" r="31" fill="#B3CEE0"/>
-      </g>
-      <g id="mask">
-      <mask id="mask0_8_57" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="62" height="4190">
-      <g id="front_line">
-      <path id="ligne_2" d="M31 62L31 4180" stroke="#280AEB" stroke-width="20" stroke-linecap="round"/>
-      <circle id="cercle_1_2" cx="31" cy="31" r="31" fill="#280AEB"/>
-      <circle id="cercle_2_2" cx="31" cy="3471" r="31" fill="#280AEB"/>
-      <circle id="cercle_3_2" cx="31" cy="4159" r="31" fill="#280AEB"/>
-      <circle id="cercle_4_2" cx="31" cy="2783" r="31" fill="#280AEB"/>
-      <circle id="cercle_5_2" cx="31" cy="2095" r="31" fill="#280AEB"/>
-      <circle id="cercle_6_2" cx="31" cy="1407" r="31" fill="#280AEB"/>
-      <circle id="cercle_7_2" cx="31" cy="719" r="31" fill="#280AEB"/>
-      </g>
-      </mask>
-      <g mask="url(#mask0_8_57)">
-      <rect id="groupe" x="-51" width="164" height="4190" fill="#280AEB"/>
-      </g>
-      </g>
-      </g>
-      </svg>
-  </div>
-  <p class="desc1">1979 : Fondement d’Architecture Sans Frontières par l’architecte Pierre Allard</p>
-  <p class="desc2"> Années 80 : Développement et engagement de l’association dans différents programmes portant sur le logement</p>
-   <p class="desc3">1989 : Présence d’Architectes Sans Frontières dans des pays tels que le Kurdistan iranien, le Vietnam, le Brésil, le Cameroun et le Mozambique</p>
-  <p class="desc4"> 1996 : Suspension des activités</p>
-   <p class="desc5">2002 : Reprise des activités</p>
-   <p class="desc6">2007 : Création d’Architecture Sans Frontières International</p>
-   <p class="desc7">2008 : Création d’Architecture Sans Frontières Québec</p>
-</div>
-</main>
 
-<footer>
-  <div class="footer px-3 pt-5">
-      <div class="no1" value="href" onclick="location.href='index.html'">
-          <img src="sources/medias/accueil/logos/logo_site.png">   
+      <div class="histoire_desc">
+        <div class="d-flex justify-content-center m-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="62"
+            height="4190"
+            viewBox="0 0 62 4190"
+            fill="none"
+          >
+            <g id="ligne_du_temps">
+              <g id="back_line">
+                <path
+                  id="ligne"
+                  d="M31 62L31 4180"
+                  stroke="#B3CEE0"
+                  stroke-width="20"
+                  stroke-linecap="round"
+                />
+                <circle id="cercle_1" cx="31" cy="31" r="31" fill="#B3CEE0" />
+                <circle id="cercle_2" cx="31" cy="3471" r="31" fill="#B3CEE0" />
+                <circle id="cercle_3" cx="31" cy="4159" r="31" fill="#B3CEE0" />
+                <circle id="cercle_4" cx="31" cy="2783" r="31" fill="#B3CEE0" />
+                <circle id="cercle_5" cx="31" cy="2095" r="31" fill="#B3CEE0" />
+                <circle id="cercle_6" cx="31" cy="1407" r="31" fill="#B3CEE0" />
+                <circle id="cercle_7" cx="31" cy="719" r="31" fill="#B3CEE0" />
+              </g>
+              <g id="mask">
+                <mask
+                  id="mask0_8_57"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="62"
+                  height="4190"
+                >
+                  <g id="front_line">
+                    <path
+                      id="ligne_2"
+                      d="M31 62L31 4180"
+                      stroke="#280AEB"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      id="cercle_1_2"
+                      cx="31"
+                      cy="31"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_2_2"
+                      cx="31"
+                      cy="3471"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_3_2"
+                      cx="31"
+                      cy="4159"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_4_2"
+                      cx="31"
+                      cy="2783"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_5_2"
+                      cx="31"
+                      cy="2095"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_6_2"
+                      cx="31"
+                      cy="1407"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                    <circle
+                      id="cercle_7_2"
+                      cx="31"
+                      cy="719"
+                      r="31"
+                      fill="#280AEB"
+                    />
+                  </g>
+                </mask>
+                <g mask="url(#mask0_8_57)">
+                  <rect
+                    id="groupe"
+                    x="-51"
+                    width="164"
+                    height="4190"
+                    fill="#280AEB"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <p class="desc1">
+          1979 : Fondement d’Architecture Sans Frontières par l’architecte
+          Pierre Allard
+        </p>
+        <p class="desc2">
+          Années 80 : Développement et engagement de l’association dans
+          différents programmes portant sur le logement
+        </p>
+        <p class="desc3">
+          1989 : Présence d’Architectes Sans Frontières dans des pays tels que
+          le Kurdistan iranien, le Vietnam, le Brésil, le Cameroun et le
+          Mozambique
+        </p>
+        <p class="desc4">1996 : Suspension des activités</p>
+        <p class="desc5">2002 : Reprise des activités</p>
+        <p class="desc6">
+          2007 : Création d’Architecture Sans Frontières International
+        </p>
+        <p class="desc7">
+          2008 : Création d’Architecture Sans Frontières Québec
+        </p>
       </div>
-               
-      <div class="no2">
-          <p class="text-center">514 868-1767</p> 
+    </main>
+
+    <footer>
+      <div class="footer px-3 pt-5">
+        <div class="no1" value="href" onclick="location.href='index.html'">
+          <img src="sources/medias/accueil/logos/logo_site.png" />
+        </div>
+
+        <div class="no2">
+          <p class="text-center">514 868-1767</p>
           <p class="text-center">info@asf-quebec.org</p>
-          <a class="text-center" href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu">201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a> 
-          <p class="text-center mt-3 mb-0">Numéro d’organisme de bienfaisance officiel <br> du Canada : 831067012RR0001</p>       
-      </div>
-              
-      <div class="no3">
-          <p class="text-center"> Notre fier partenaire-fondateur</p>
-              <img src="sources/medias/accueil/logos/logo_partenaire.png">
-      </div>
-            
-      <div class="no4">
-          <button class="btn btn-primary btn-lg" value="href" onclick="location.href='don.html'"> Faire un don
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-              </svg>
-          </button> 
-      </div>
-            
-      <div class="no5">
-          <a href="https://www.facebook.com/architecturesansfrontieres/"><img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"></a>
-          <a href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"><img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
-          <a href="https://www.linkedin.com/company/asf-quebec/"><img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
-          <a href="https://twitter.com/quebecasf"><img src="sources/medias/accueil/logos/logo_twitter.png" width="50px" height="50px" style="margin: 0 5px;"></a>
-      </div>
+          <a
+            class="text-center"
+            href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu"
+            >201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a
+          >
+          <p class="text-center mt-3 mb-0">
+            Numéro d’organisme de bienfaisance officiel <br />
+            du Canada : 831067012RR0001
+          </p>
+        </div>
 
-      <div class="no6 mt-3">
-          <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).</p>
+        <div class="no3">
+          <p class="text-center">Notre fier partenaire-fondateur</p>
+          <img src="sources/medias/accueil/logos/logo_partenaire.png" />
+        </div>
+
+        <div class="no4">
+          <button
+            class="btn btn-primary btn-lg"
+            value="href"
+            onclick="location.href='don.html'"
+          >
+            Faire un don
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="no5">
+          <a href="https://www.facebook.com/architecturesansfrontieres/"
+            ><img
+              src="sources/medias/accueil/logos/logo_facebook.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+          /></a>
+          <a
+            href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"
+            ><img
+              src="sources/medias/accueil/logos/logo_youtube.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+            />
+          </a>
+          <a href="https://www.linkedin.com/company/asf-quebec/"
+            ><img
+              src="sources/medias/accueil/logos/logo_linkedln.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+            />
+          </a>
+          <a href="https://twitter.com/quebecasf"
+            ><img
+              src="sources/medias/accueil/logos/logo_twitter.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+          /></a>
+        </div>
+
+        <div class="no6 mt-3">
+          <p class="text-center">
+            ©2023 Architecture sans frontières Québec. <br />
+            LTP (Les Trois Programmeuses).
+          </p>
+        </div>
       </div>
-  </div>
-</footer>
+    </footer>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-
-<script src="script-ligne.js"></script>
-</body>
+    <script src="script-ligne.js"></script>
+  </body>
 </html>

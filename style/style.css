@@ -299,10 +299,6 @@ footer .no5 a {
   margin-top: 60px;
   width: 80%;
 }
-#section-equipe .card .card-body {
-  margin-top: 20px;
-  margin-right: 28px;
-}
 #section-equipe .card h6 {
   font-weight: bold;
   color: #16077a;
@@ -757,36 +753,57 @@ footer .no5 a {
     width: 40%;
     left: 7%;
     top: 149%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc2 {
     width: 40%;
     right: 7%;
     top: 170%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc3 {
     width: 40%;
     left: 7%;
     top: 194%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc4 {
     width: 40%;
     right: 7%;
     top: 226%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc5 {
     width: 40%;
     left: 7%;
     top: 250%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc6 {
     width: 40%;
     right: 7%;
     top: 272%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
   .histoire_desc p.desc7 {
     width: 40%;
     left: 7%;
     top: 297%;
+    background-color: rgba(178, 175, 213, 0.8274509804);
+    color: #280aeb;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 387px) {
