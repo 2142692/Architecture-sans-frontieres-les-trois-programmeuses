@@ -478,260 +478,311 @@ footer .no5 a {
 }
 
 .histoire_desc {
-  margin-top: 90px;
-  /*
-    @media screen and (min-width: 100px) {
-      p {
-        background-color: #7260e6;
-        width: 50%;
-        position: absolute;
-        font-size: 13px;
-        padding: 10px;
-        text-align: center;
-
-        &.desc1 {
-          width: 40%;
-          left: 7%;
-          top: 149%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc2 {
-          width: 40%;
-          right: 7%;
-          top: 170%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc3 {
-          width: 40%;
-          left: 7%;
-          top: 194%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc4 {
-          width: 40%;
-          right: 7%;
-          top: 226%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc5 {
-          width: 40%;
-          left: 7%;
-          top: 250%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc6 {
-          width: 40%;
-          right: 7%;
-          top: 272%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-
-        &.desc7 {
-          width: 40%;
-          left: 7%;
-          top: 297%;
-          background-color: #b2afd5d3;
-          color: #280aeb;
-          font-weight: bold;
-        }
-      }
-    }
-
-    @media screen and (min-width: 387px) {
-      p {
-        background-color: #7260e6;
-        width: 50%;
-        position: absolute;
-        font-size: 13px;
-        padding: 19px;
-        text-align: center;
-
-        &.desc1 {
-          width: 40%;
-          left: 7%;
-          top: 146%;
-        }
-
-        &.desc2 {
-          width: 40%;
-          right: 7%;
-          top: 172%;
-        }
-
-        &.desc3 {
-          width: 40%;
-          left: 7%;
-          top: 195%;
-        }
-
-        &.desc4 {
-          width: 40%;
-          right: 7%;
-          top: 220%;
-        }
-
-        &.desc5 {
-          width: 40%;
-          left: 7%;
-          top: 245%;
-        }
-
-        &.desc6 {
-          width: 40%;
-          right: 7%;
-          top: 268%;
-        }
-
-        &.desc7 {
-          width: 40%;
-          left: 7%;
-          top: 292%;
-        }
-      }
-    }
-
-    @media screen and (min-width: 1300px) {
-      p {
-        background-color: #7260e6;
-        width: 50%;
-        position: absolute;
-        font-size: 13px;
-        padding: 19px;
-        text-align: center;
-
-        &.desc1 {
-          width: 40%;
-          left: 7%;
-          top: 148%;
-        }
-
-        &.desc2 {
-          width: 40%;
-          right: 7%;
-          top: 172%;
-        }
-
-        &.desc3 {
-          width: 40%;
-          left: 7%;
-          top: 196%;
-        }
-
-        &.desc4 {
-          width: 40%;
-          right: 7%;
-          top: 222%;
-        }
-
-        &.desc5 {
-          width: 40%;
-          left: 7%;
-          top: 246%;
-        }
-
-        &.desc6 {
-          width: 40%;
-          right: 7%;
-          top: 270%;
-        }
-
-        &.desc7 {
-          width: 40%;
-          left: 7%;
-          top: 294%;
-        }
-      }
-    }*/
+  position: relative;
 }
 .histoire_desc svg {
+  position: absolute;
+  z-index: 0;
   width: 40px;
   height: 1000px;
 }
 .histoire_desc svg #groupe {
   height: 0%;
 }
-.histoire_desc p {
-  background-color: #7260e6;
-  width: 50%;
+
+.histoire-texte {
   position: absolute;
-  font-size: 13px;
-  padding: 10px;
-  text-align: center;
-}
-.histoire_desc p.desc1 {
-  width: 40%;
-  left: 7%;
-  top: 134%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc2 {
-  width: 40%;
-  right: 7%;
-  top: 151%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc3 {
-  width: 40%;
-  left: 7%;
-  top: 168%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc4 {
-  width: 40%;
-  right: 7%;
-  top: 184%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc5 {
-  width: 40%;
-  left: 7%;
-  top: 202%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc6 {
-  width: 40%;
-  right: 7%;
-  top: 219%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
-}
-.histoire_desc p.desc7 {
-  width: 40%;
-  left: 7%;
-  top: 237%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
-  color: #280aeb;
-  font-weight: bold;
+  top: 0;
+  width: 60vw;
 }
 
+.dates {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#date-01, #date-02, #date-03, #date-04, #date-05, #date-06, #date-07 {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  margin-left: 1vw;
+}
+#date-01 .card, #date-02 .card, #date-03 .card, #date-04 .card, #date-05 .card, #date-06 .card, #date-07 .card {
+  max-width: 400px;
+  background-color: #a5c6dc;
+}
+#date-01 .card img, #date-02 .card img, #date-03 .card img, #date-04 .card img, #date-05 .card img, #date-06 .card img, #date-07 .card img {
+  border-radius: 50%;
+  border: 2px solid #280aeb;
+}
+
+#date-01 {
+  margin-top: -6.5vh;
+}
+
+#date-02 {
+  margin-top: 2.5vh;
+}
+
+#date-03, #date-04, #date-05, #date-06, #date-07 {
+  margin-top: 2vh;
+}
+
+/*p {
+    background-color: #7260e6;
+    width: 50%;
+    position: absolute;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+
+    &.desc1 {
+      width: 40%;
+      left: 7%;
+      top: 134%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc2 {
+      width: 40%;
+      right: 7%;
+      top: 151%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc3 {
+      width: 40%;
+      left: 7%;
+      top: 168%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc4 {
+      width: 40%;
+      right: 7%;
+      top: 184%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc5 {
+      width: 40%;
+      left: 7%;
+      top: 202%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc6 {
+      width: 40%;
+      right: 7%;
+      top: 219%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+
+    &.desc7 {
+      width: 40%;
+      left: 7%;
+      top: 237%;
+      background-color: #b2afd5d3;
+      color: #280aeb;
+      font-weight: bold;
+    }
+  }
+
+/*
+  @media screen and (min-width: 100px) {
+    p {
+      background-color: #7260e6;
+      width: 50%;
+      position: absolute;
+      font-size: 13px;
+      padding: 10px;
+      text-align: center;
+
+      &.desc1 {
+        width: 40%;
+        left: 7%;
+        top: 149%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc2 {
+        width: 40%;
+        right: 7%;
+        top: 170%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc3 {
+        width: 40%;
+        left: 7%;
+        top: 194%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc4 {
+        width: 40%;
+        right: 7%;
+        top: 226%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc5 {
+        width: 40%;
+        left: 7%;
+        top: 250%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc6 {
+        width: 40%;
+        right: 7%;
+        top: 272%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+
+      &.desc7 {
+        width: 40%;
+        left: 7%;
+        top: 297%;
+        background-color: #b2afd5d3;
+        color: #280aeb;
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (min-width: 387px) {
+    p {
+      background-color: #7260e6;
+      width: 50%;
+      position: absolute;
+      font-size: 13px;
+      padding: 19px;
+      text-align: center;
+
+      &.desc1 {
+        width: 40%;
+        left: 7%;
+        top: 146%;
+      }
+
+      &.desc2 {
+        width: 40%;
+        right: 7%;
+        top: 172%;
+      }
+
+      &.desc3 {
+        width: 40%;
+        left: 7%;
+        top: 195%;
+      }
+
+      &.desc4 {
+        width: 40%;
+        right: 7%;
+        top: 220%;
+      }
+
+      &.desc5 {
+        width: 40%;
+        left: 7%;
+        top: 245%;
+      }
+
+      &.desc6 {
+        width: 40%;
+        right: 7%;
+        top: 268%;
+      }
+
+      &.desc7 {
+        width: 40%;
+        left: 7%;
+        top: 292%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    p {
+      background-color: #7260e6;
+      width: 50%;
+      position: absolute;
+      font-size: 13px;
+      padding: 19px;
+      text-align: center;
+
+      &.desc1 {
+        width: 40%;
+        left: 7%;
+        top: 148%;
+      }
+
+      &.desc2 {
+        width: 40%;
+        right: 7%;
+        top: 172%;
+      }
+
+      &.desc3 {
+        width: 40%;
+        left: 7%;
+        top: 196%;
+      }
+
+      &.desc4 {
+        width: 40%;
+        right: 7%;
+        top: 222%;
+      }
+
+      &.desc5 {
+        width: 40%;
+        left: 7%;
+        top: 246%;
+      }
+
+      &.desc6 {
+        width: 40%;
+        right: 7%;
+        top: 270%;
+      }
+
+      &.desc7 {
+        width: 40%;
+        left: 7%;
+        top: 294%;
+      }
+    }
+  }
+}*/
 .loader {
   position: relative;
   width: 100vw;

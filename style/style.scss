@@ -625,6 +625,7 @@ footer {
   }
 }
 
+
 #histoire {
   .titre {
     color: $color-title;
@@ -632,18 +633,65 @@ footer {
 }
 
 .histoire_desc {
-  margin-top: 90px;
+  position: relative;
   
   svg {
+    position: absolute;
+    z-index: 0;
     width: 40px;
     height: 1000px;
-    
+
     #groupe {
       height: 0%;
     }
   }
+}
 
-  p {
+.histoire-texte {
+  position: absolute;
+  top: 0;
+  width: 60vw;
+}
+
+.dates {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#date-01, #date-02, #date-03, #date-04, #date-05, #date-06, #date-07 {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  margin-left: 1vw;
+
+  .card {
+    max-width: 400px;
+    background-color: #a5c6dc;
+
+    img {
+      border-radius: 50%;
+      border: 2px solid #280aeb;
+    }
+  }   
+}
+
+#date-01 {
+  margin-top: -6.5vh;
+}
+
+#date-02 {
+  margin-top: 2.5vh;
+}
+
+#date-03, #date-04, #date-05, #date-06, #date-07 {
+  margin-top: 2vh;
+}
+
+
+
+  /*p {
     background-color: #7260e6;
     width: 50%;
     position: absolute;
@@ -894,8 +942,8 @@ footer {
         top: 294%;
       }
     }
-  }*/
-}
+  }
+}*/
 
 // --- FIN Histoire ---
 
