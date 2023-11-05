@@ -16,8 +16,6 @@ const swiperHero = new Swiper(".mySwiper", {
 // --- DÉBUT Swiper Nouvelles ---
 const swiperNews = new Swiper(".mySecondSwiper", {
   direction: "horizontal",
-  slidesPerView: 2,
-  spaceBetween: 30,
   centeredSlides: true,
   navigation: {
     nextEl: ".swiper-button-next",

@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
 
         <!-- Bannière -->
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong class="me-2">Ce site a été réalisé à des fins entièrement pédagogiques.</strong> 
+            <strong class="me-2">Ce site a été réalisé à des fins entièrement pédagogiques.</strong>
             <a href="https://www.asf-quebec.org/">
-                <button type="button" class="btn btn-primary" href="https://www.asf-quebec.org/">Visiter le site officiel
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                <button type="button" class="btn btn-primary" href="https://www.asf-quebec.org/">Visiter le site
+                    officiel
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
                 </button>
             </a>
@@ -33,50 +40,52 @@
         <nav class="navbar navbar-light navbar-expand-lg">
             <div class="container">
 
-            <!-- Logo -->
-              <a class="navbar-brand" value="href" onclick="location.href='index.html'">
-                <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
-              </a>
+                <!-- Logo -->
+                <a class="navbar-brand" value="href" onclick="location.href='index.html'">
+                    <img src="sources/medias/accueil/logos/logo_site.png" width="175px" height="65px" />
+                </a>
 
-              <!-- Hamburger -->
-              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                <svg viewBox="0 0 12 10" class="hamburger" height="30px" width="50px">
-                    <path d="M10,2 L2,2" class="upper" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
-                    <path d="M2,5 L10,5" class="middle" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>
-                    <path d="M10,8 L2,8" class="lower" style="fill: none;stroke: #7260E6;stroke-linecap: round;"/>   
-                </svg>
-              </button>
-              
+                <!-- Hamburger -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                    <svg viewBox="0 0 12 10" class="hamburger" height="30px" width="50px">
+                        <path d="M10,2 L2,2" class="upper" style="fill: none;stroke: #7260E6;stroke-linecap: round;" />
+                        <path d="M2,5 L10,5" class="middle" style="fill: none;stroke: #7260E6;stroke-linecap: round;" />
+                        <path d="M10,8 L2,8" class="lower" style="fill: none;stroke: #7260E6;stroke-linecap: round;" />
+                    </svg>
+                </button>
 
-              <!-- Navigation -->
-              <div id="mainNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav d-flex align-items-end">
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no1" href="a_propos.html">À propos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no2"  href="services.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no3" href="nouvelles.html">Nouvelles</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no4" href="histoire.html">Histoire</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no5" href="equipe.html">Équipe</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-3" id="no6" href="faq.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-primary me-3" value="href" onclick="location.href='don.html'">Contribuez</button>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index_en.html" class="nav-link me-3" >EN</a>
-                  </li>
-                </ul>
-              </div>  
+
+                <!-- Navigation -->
+                <div id="mainNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex align-items-end">
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no1" href="a_propos.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no2" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no3" href="nouvelles.html">Nouvelles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no4" href="histoire.html">Histoire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no5" href="equipe.html">Équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3" id="no6" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary me-3" value="href"
+                                onclick="location.href='don.html'">Contribuez</button>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index_en.html" class="nav-link me-3">EN</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -90,73 +99,90 @@
                 <!-- Swiper 01 -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="card">
-                            <div class="row d-flex align-items-center">
-                              <div class="col-md-12 col-lg-8">
-                                <img src="sources/medias/accueil/hero_carrousel/01_image_hero.png" class="img" alt="...">
-                              </div>
-                              <div class="col-lg-4">
-                                <div class="card-body">
-                                  <h1 class="card-title">Un catalogue d’aménagement dédié à l’itinérance</h1>
-                                  <h5 class="card-text pb-3">Consultez le catalogue d’aménagement « Architecture + itinérance : pratiques inclusives pour une ville solidaire », une ressource conçue pour stimuler l’innovation dans les projets destinés aux personnes en situation d’itinérance. </h5>
-                                  <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                    </svg>
-                                  </button>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-12 col-lg-8">
+                                        <img src="sources/medias/accueil/hero_carrousel/01_image_hero.png" class="img"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card-body">
+                                            <h1 class="card-title">Un catalogue d’aménagement dédié à l’itinérance</h1>
+                                            <h5 class="card-text pb-3">Consultez le catalogue d’aménagement «
+                                                Architecture + itinérance : pratiques inclusives pour une ville
+                                                solidaire », une ressource conçue pour stimuler l’innovation dans les
+                                                projets destinés aux personnes en situation d’itinérance. </h5>
+                                            <button type="button" class="btn btn-primary">En savoir plus
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
-                      </div>
 
-                      <!-- Swiper 02 -->
-                      <div class="swiper-slide">
-                        <div class="card" >
-                            <div class="row d-flex align-items-center">
-                              <div class="col-md-12 col-lg-8">
-                                <img src="sources/medias/accueil/hero_carrousel/02_image_hero.jpeg" class="img" alt="...">
-                              </div>
-                              <div class="col-lg-4">
-                                <div class="card-body ">
-                                  <h1 class="card-title">En 2023, ASFQ célèbre son 15e anniversaire !</h1>
-                                  <h5 class="card-text pb-3">En plus de s’offrir un logo et un slogan spécialement conçus pour l’occasion, l’organisme soulignera cet anniversaire important avec différentes activités durant l’année.</h5>
-                                  <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                    </svg>
-                                  </button>
+                        <!-- Swiper 02 -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-12 col-lg-8">
+                                        <img src="sources/medias/accueil/hero_carrousel/02_image_hero.jpeg" class="img"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card-body ">
+                                            <h1 class="card-title">En 2023, ASFQ célèbre son 15e anniversaire !</h1>
+                                            <h5 class="card-text pb-3">En plus de s’offrir un logo et un slogan
+                                                spécialement conçus pour l’occasion, l’organisme soulignera cet
+                                                anniversaire important avec différentes activités durant l’année.</h5>
+                                            <button type="button" class="btn btn-primary">En savoir plus
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
-                      </div>
 
-                      <!-- Swiper 03 -->
-                      <div class="swiper-slide">
-                        <div class="card" >
-                            <div class="row d-flex align-items-center">
-                              <div class="col-md-12 col-lg-8">
-                                <img src="sources/medias/accueil/hero_carrousel/03_image_hero.jpg" class="img" alt="...">
-                              </div>
-                              <div class="col-lg-4">
-                                <div class="card-body ">
-                                  <h1 class="card-title">Une architecture hors de l’ordinaire…</h1>
-                                  <h5 class="card-text pb-3">Un développement humain, équitable et durable est impossible sans l’architecture. C’est pourquoi ASFQ œuvre avec les communautés depuis 2007, à titre de bras humanitaire officiel de l’Ordre des architectes du Québec. </h5>
-                                  <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                    </svg>
-                                  </button>
+                        <!-- Swiper 03 -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-12 col-lg-8">
+                                        <img src="sources/medias/accueil/hero_carrousel/03_image_hero.jpg" class="img"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card-body ">
+                                            <h1 class="card-title">Une architecture hors de l’ordinaire…</h1>
+                                            <h5 class="card-text pb-3">Un développement humain, équitable et durable est
+                                                impossible sans l’architecture. C’est pourquoi ASFQ œuvre avec les
+                                                communautés depuis 2007, à titre de bras humanitaire officiel de l’Ordre
+                                                des architectes du Québec. </h5>
+                                            <button type="button" class="btn btn-primary">En savoir plus
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
-                      </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                  </div>
+                </div>
             </div>
         </section>
 
@@ -164,7 +190,7 @@
         <section id="section-services">
             <div class="container py-5">
                 <div class="row">
-                  <h2 class="text-center pb-4">Nos services</h2>
+                    <h2 class="text-center pb-4">Nos services</h2>
                 </div>
 
                 <!-- Coopération internationale -->
@@ -172,19 +198,23 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/01_logo_cooperation_internationale.png" width="80px" height="80px">
+                                <img src="sources/medias/services/01_logo_cooperation_internationale.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Coopération internationale </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Une expertise architecturale pour les projets de coopération internationale des ONG canadiennes et de leurs partenaires des pays en développement
+                                Une expertise architecturale pour les projets de coopération internationale des ONG
+                                canadiennes et de leurs partenaires des pays en développement
                             </div>
 
-                            
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -194,18 +224,22 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/02_logo_solidarite_humaine.png" width="80px" height="80px">
+                                <img src="sources/medias/services/02_logo_solidarite_humaine.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Solidarité urbaine </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Un appui aux projets d’aménagement communautaire visant l’équité urbaine, l’inclusion sociale et l’aide aux sans-abri à Montréal
+                                Un appui aux projets d’aménagement communautaire visant l’équité urbaine, l’inclusion
+                                sociale et l’aide aux sans-abri à Montréal
                             </div>
 
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -215,18 +249,22 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/03_logo_habitat_autochtone.png" width="80px" height="80px">
+                                <img src="sources/medias/services/03_logo_habitat_autochtone.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Habitat autochtone </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Une architecture pour soutenir les projets d’infrastructures, renforcer les capacités et atténuer la crise du logement chez les Premières Nations et les Inuits
+                                Une architecture pour soutenir les projets d’infrastructures, renforcer les capacités et
+                                atténuer la crise du logement chez les Premières Nations et les Inuits
                             </div>
 
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -236,18 +274,22 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/04_logo_resilience_climatique.png" width="80px" height="80px">
+                                <img src="sources/medias/services/04_logo_resilience_climatique.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Résilience climatique </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Des actions préventives pour adapter le Québec aux inondations et une assistance en cas de catastrophe
+                                Des actions préventives pour adapter le Québec aux inondations et une assistance en cas
+                                de catastrophe
                             </div>
 
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -257,18 +299,22 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/05_logo_economie_circulaire.png" width="80px" height="80px">
+                                <img src="sources/medias/services/05_logo_economie_circulaire.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Économie circulaire </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Une architecture écologique et solidaire grâce à la récupération, la redistribution et la réutilisation des matériaux de la construction
+                                Une architecture écologique et solidaire grâce à la récupération, la redistribution et
+                                la réutilisation des matériaux de la construction
                             </div>
 
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -278,46 +324,54 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="logo-service">
-                                <img src="sources/medias/services/06_logo_engagement_benevole.png" width="80px" height="80px">
+                                <img src="sources/medias/services/06_logo_engagement_benevole.png" width="80px"
+                                    height="80px">
                             </div>
-                        
+
                             <div class="card-body">
                                 <h3 class="card-title"> Engagement bénévole </h3>
                                 <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                    Des opportunités d’action volontaire locale et internationale avec Architecture sans frontières Québec et ses partenaires
+                                Des opportunités d’action volontaire locale et internationale avec Architecture sans
+                                frontières Québec et ses partenaires
                             </div>
 
-                            <button type="button" class="btn btn-primary">En savoir plus 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
                         </div>
                     </div>
                 </div>
 
-                    <!-- Éducation architecturale -->
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card">
-                                <div class="logo-service">
-                                    <img src="sources/medias/services/07_logo_education_architecturale.png" width="80px" height="80px">
-                                </div>
-                            
-                                <div class="card-body">
-                                    <h3 class="card-title"> Éducation architecturale </h3>
-                                    <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
-                                        Des activités d’apprentissage et de perfectionnement pour former les praticiens à l’architecture sociale audacieuse dont le monde a besoin
-                                </div>
-
-                                <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                    </svg>
-                                </button>
+                <!-- Éducation architecturale -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="logo-service">
+                                <img src="sources/medias/services/07_logo_education_architecturale.png" width="80px"
+                                    height="80px">
                             </div>
+
+                            <div class="card-body">
+                                <h3 class="card-title"> Éducation architecturale </h3>
+                                <hr style="height: 2px; background-color: #280AEB; width: 100%; border: none;">
+                                Des activités d’apprentissage et de perfectionnement pour former les praticiens à
+                                l’architecture sociale audacieuse dont le monde a besoin
+                            </div>
+
+                            <button type="button" class="btn btn-primary">En savoir plus
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </button>
                         </div>
                     </div>
+                </div>
 
             </div>
         </section>
@@ -335,59 +389,109 @@
                         <!-- Nouvelle 01 -->
                         <div class="swiper-slide">
                             <div class="card">
-                                <img src="sources/medias/accueil/nouvelles/01_image_nouvelle.png"  class="card-img-top">
+                                <img src="sources/medias/nouvelles/01_image_nouvelle.png" class="card-img-top"
+                                    alt="..." />
 
                                 <div class="card-body">
-                                    <div class="card-header">28 août 2023</div>
-                                    <h5 class="card-title">PARTICIPEZ : Sondage pour améliorer l’adaptation des bâtiments aux inondations</h5>
-                                    <p class="card-text">Vous êtes concerné.e.s ou préoccupé.e.s par l'adaptation des bâtiments aux inondations ? Vous avez un point de vue à [...]</p>
+                                    <div class="card-header mb-4">28 août 2023</div>
+                                    <h5 class="card-title">
+                                        PARTICIPEZ : Sondage pour améliorer l’adaptation des
+                                        bâtiments aux inondations
+                                        <hr style="
+                                        height: 2px;
+                                        background-color: #7260e6;
+                                        width: 100%;
+                                        border: none;
+                                      " />
+                                    </h5>
+                                    <p class="card-text">
+                                        Vous êtes concerné.e.s ou préoccupé.e.s par l'adaptation des
+                                        bâtiments aux inondations ? Vous avez un point de vue à
+                                        [...]
+                                    </p>
                                 </div>
 
-                                <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                <button type="button" class="btn btn-primary">
+                                    En savoir plus
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                     </svg>
                                 </button>
-                              </div>
+                            </div>
                         </div>
 
                         <!-- Nouvelle 02 -->
                         <div class="swiper-slide">
                             <div class="card">
-                                <img src="sources/medias/accueil/nouvelles/02_image_nouvelle.png" class="card-img-top">
-                                
+                                <img src="sources/medias/nouvelles/02_image_nouvelle.png" class="card-img-top"
+                                    alt="..." />
+
                                 <div class="card-body">
-                                    <div class="card-header">27 août 2023</div>
-                                    <h5 class="card-title">École en Tanzanie : le chantier se prépare !</h5>
-                                    <p class="card-text">La conception de l’école primaire pour la communauté massaï d’Enguserosambu est terminée et sa construction s'apprête à commencer. L'équipe de [...]</p>
+                                    <div class="card-header mb-4">27 août 2023</div>
+                                    <h5 class="card-title">
+                                        École en Tanzanie : le chantier se prépare !
+                                        <hr style="
+                                        height: 2px;
+                                        background-color: #7260e6;
+                                        width: 100%;
+                                        border: none;
+                                      " />
+                                    </h5>
+                                    <p class="card-text">
+                                        La conception de l’école primaire pour la communauté massaï
+                                        d’Enguserosambu est terminée et sa construction s'apprête à
+                                        commencer. L'équipe de [...]
+                                    </p>
                                 </div>
 
-                                <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                <button type="button" class="btn btn-primary">
+                                    En savoir plus
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                     </svg>
                                 </button>
                             </div>
                         </div>
 
                         <!-- Nouvelle 03 -->
-                        <div class="swiper-slide">                          
+                        <div class="swiper-slide">
                             <div class="card">
-                                <img src="sources/medias/accueil/nouvelles/03_image_nouvelle.png" class="card-img-top">
-                                
+                                <img src="sources/medias/nouvelles/03_image_nouvelle.png" class="card-img-top"
+                                    alt="..." />
+
                                 <div class="card-body">
-                                    <div class="card-header">20 juillet 2023</div>
-                                    <h5 class="card-title">Itinérance et résilience aux inondations : la SCHL appuie 2 projets d’ASFQ</h5>
-                                    <p class="card-text">La Société canadienne d'hypothèques et de logement (SCHL) a récemment dévoilé les dix lauréats de son Fonds de recherche et [...]</p>
+                                    <div class="card-header mb-4">20 juillet 2023</div>
+                                    <h5 class="card-title">
+                                        Itinérance et résilience aux inondations : la SCHL appuie 2
+                                        projets d’ASFQ
+                                        <hr style="
+                                        height: 2px;
+                                        background-color: #7260e6;
+                                        width: 100%;
+                                        border: none;
+                                      " />
+                                    </h5>
+                                    <p class="card-text">
+                                        La Société canadienne d'hypothèques et de logement (SCHL) a
+                                        récemment dévoilé les dix lauréats de son Fonds de recherche
+                                        et [...]
+                                    </p>
                                 </div>
 
-                                <button type="button" class="btn btn-primary">En savoir plus 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                <button type="button" class="btn btn-primary">
+                                    En savoir plus
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                     </svg>
                                 </button>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -402,15 +506,18 @@
                 <div class="row d-flex justify-content-center">
                     <div class="card mb-3 p-0 " style="max-width: 700px;">
                         <div class="row g-0 d-flex align-items-center">
-                        <div class="col-4">
-                            <img src="sources/medias/accueil/image_personne_temoignage.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-8 d-flex align-items-center">
-                            <div class="card-body">
-                            <h5 class="card-title">Clothilde Duverger</h5>
-                            <p class="card-text">« Cette expérience au sein d’Eco-Réno a été d’autant plus stimulante, car ASFQ permet à notre travail quotidien d’avoir un impact significatif. »</p>
+                            <div class="col-4">
+                                <img src="sources/medias/accueil/image_personne_temoignage.jpg"
+                                    class="img-fluid rounded-start" alt="...">
                             </div>
-                        </div>
+                            <div class="col-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clothilde Duverger</h5>
+                                    <p class="card-text">« Cette expérience au sein d’Eco-Réno a été d’autant plus
+                                        stimulante, car ASFQ permet à notre travail quotidien d’avoir un impact
+                                        significatif. »</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -418,68 +525,87 @@
         </section>
 
         <!-- Section Don -->
-        <section id="section-don" >
+        <section id="section-don">
             <div class="container py-5">
-              <div class="row justify-content-center">
-                <div class="card text-center" style="width: 40rem;">
-                  <div class="card-body">
-                    <h3 class="card-title">Contribuez vous aussi à aider les populations victimes de crises, de catastrophes naturelles ou d’inégalités sociales en faisant un don à notre organisme !</h3> <br>
-                    <a href="#" class="btn btn-primary btn-lg">
-                        <div class="contenu">
-                            <span class="text"></span>
-                            <span class="cursor">_</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                            </svg>
+                <div class="row justify-content-center">
+                    <div class="card text-center" style="width: 40rem;">
+                        <div class="card-body">
+                            <h3 class="card-title">Contribuez vous aussi à aider les populations victimes de crises, de
+                                catastrophes naturelles ou d’inégalités sociales en faisant un don à notre organisme !
+                            </h3> <br>
+                            <a href="#" class="btn btn-primary btn-lg">
+                                <div class="contenu">
+                                    <span class="text"></span>
+                                    <span class="cursor">_</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                  </div>
+                    </div>
                 </div>
-              </div>
-          </section>
+        </section>
 
     </main>
 
     <footer>
         <div class="footer px-3 pt-5">
             <div class="no1" value="href" onclick="location.href='index.html'">
-                <img src="sources/medias/accueil/logos/logo_site.png">   
+                <img src="sources/medias/accueil/logos/logo_site.png">
             </div>
-                     
+
             <div class="no2">
-                <p class="text-center">514 868-1767</p> 
+                <p class="text-center">514 868-1767</p>
                 <p class="text-center">info@asf-quebec.org</p>
-                <a class="text-center" href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu">201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a> 
-                <p class="text-center mt-3 mb-0">Numéro d’organisme de bienfaisance officiel <br> du Canada : 831067012RR0001</p>       
+                <a class="text-center"
+                    href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu">201
+                    rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a>
+                <p class="text-center mt-3 mb-0">Numéro d’organisme de bienfaisance officiel <br> du Canada :
+                    831067012RR0001</p>
             </div>
-                    
+
             <div class="no3">
                 <p class="text-center"> Notre fier partenaire-fondateur</p>
-                    <img src="sources/medias/accueil/logos/logo_partenaire.png">
+                <img src="sources/medias/accueil/logos/logo_partenaire.png">
             </div>
-                  
+
             <div class="no4">
                 <button class="btn btn-primary btn-lg" value="href" onclick="location.href='don.html'"> Faire un don
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
-                </button> 
+                </button>
             </div>
-                  
+
             <div class="no5">
-                <a href="https://www.facebook.com/architecturesansfrontieres/"><img src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"  style="margin: 0 5px;"></a>
-                <a href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"><img src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
-                <a href="https://www.linkedin.com/company/asf-quebec/"><img src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px" style="margin: 0 5px;"> </a>
-                <a href="https://twitter.com/quebecasf"><img src="sources/medias/accueil/logos/logo_twitter.png" width="50px" height="50px" style="margin: 0 5px;"></a>
+                <a href="https://www.facebook.com/architecturesansfrontieres/"><img
+                        src="sources/medias/accueil/logos/logo_facebook.png" width="50px" height="50px"
+                        style="margin: 0 5px;"></a>
+                <a href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"><img
+                        src="sources/medias/accueil/logos/logo_youtube.png" width="50px" height="50px"
+                        style="margin: 0 5px;"> </a>
+                <a href="https://www.linkedin.com/company/asf-quebec/"><img
+                        src="sources/medias/accueil/logos/logo_linkedln.png" width="50px" height="50px"
+                        style="margin: 0 5px;"> </a>
+                <a href="https://twitter.com/quebecasf"><img src="sources/medias/accueil/logos/logo_twitter.png"
+                        width="50px" height="50px" style="margin: 0 5px;"></a>
             </div>
 
             <div class="no6 mt-3">
-                <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).</p>
+                <p class="text-center">©2023 Architecture sans frontières Québec. <br> LTP (Les Trois Programmeuses).
+                </p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
@@ -488,4 +614,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
