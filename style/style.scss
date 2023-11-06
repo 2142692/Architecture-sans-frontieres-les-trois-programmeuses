@@ -186,7 +186,7 @@ li {
       background-color: #b3cee0;
       max-width: 500px;
       height: 100%;
-  
+
       img {
         width: 100%;
         height: 312px;
@@ -197,7 +197,7 @@ li {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
-  
+
       button {
         margin: 20px;
       }
@@ -443,7 +443,6 @@ footer {
 }
 
 #section-propos {
-
   overflow-x: hidden;
 
   .text-raison .card {
@@ -452,16 +451,14 @@ footer {
 
   .text-raison {
     background-color: #cdccd8;
-   
   }
- 
+
   .text-mission .card {
     background-color: #cdccd8;
   }
 
   .text-mission {
     background-color: #cdccd8;
-   
   }
 
   .text-valeur .card {
@@ -470,7 +467,6 @@ footer {
 
   .text-valeur {
     background-color: #cdccd8;
-   
   }
 
   .text-approche .card {
@@ -479,7 +475,6 @@ footer {
 
   .text-approche {
     background-color: #cdccd8;
-   
   }
 
   .text-intervention .card {
@@ -488,7 +483,6 @@ footer {
 
   .text-intervention {
     background-color: #cdccd8;
-   
   }
 
   .text-first .card {
@@ -497,7 +491,6 @@ footer {
 
   .text-first {
     background-color: #cdccd8;
-   
   }
 
   img {
@@ -570,8 +563,8 @@ footer {
     }
 
     .logo-service {
-    position: absolute;
-    z-index: 1;
+      position: absolute;
+      z-index: 1;
     }
 
     .img-fluid {
@@ -582,13 +575,14 @@ footer {
 
     button {
       width: 100%;
-    } 
+    }
   }
 }
 
 // --- FIN Hub de services ---
 
 // --- DÉBUT Détail de service ---
+
 #hero_service_detail {
   position: relative;
   width: 100vw;
@@ -706,9 +700,68 @@ footer {
     }
   }
 }
+
 // --- FIN Détail de service ---
 
+// --- DÉBUT Détail de nouvelle ---
+
+#hero_nouvelle_detail {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .titre_nouvelle_detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 50%;
+    background-color: #b2afd5d3;
+
+    .titre {
+      color: #000;
+      font-size: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #hero_nouvelle_detail {
+    .titre_nouvelle_detail {
+      .titre {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+#texte {
+  h2 {
+    color: #16077a;
+  }
+}
+
+#nouvelle_part01,
+#nouvelle_part02 {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: 400px;
+  }
+}
+
+// --- FIN Détail de nouvelle ---
+
 // --- DÉBUT Histoire ---
+
 #hero_histoire {
   position: relative;
   width: 100vw;
@@ -755,7 +808,7 @@ footer {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-  
+
     .timeline-item {
       position: relative;
       margin-bottom: 40px;
@@ -768,7 +821,7 @@ footer {
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        background-color: #280aeb;;
+        background-color: #280aeb;
       }
 
       .timeline-date {
@@ -799,11 +852,11 @@ footer {
 }
 
 .timeline-items::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color:  #b2afd5d3;
+  background-color: #b2afd5d3;
   left: calc(50% - 1px);
 }
 
@@ -830,17 +883,17 @@ footer {
       }
     }
   }
-  
+
   .timeline-items::before {
     left: 7px;
   }
-  
+
   .timeline-item:nth-child(odd) {
     padding-right: 0;
     padding-left: 37px;
     text-align: left;
   }
-  
+
   .timeline-item:nth-child(even) {
     padding-left: 37px;
   }
