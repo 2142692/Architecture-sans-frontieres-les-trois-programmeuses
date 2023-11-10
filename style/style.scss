@@ -874,9 +874,19 @@ footer {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #b2afd5d3;
+  background-color: #b2afd5a2;
   left: calc(50% - 1px);
 }
+
+.progress{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0%;
+  background-color: #280aeb;
+  left: calc(50% - 1px);
+}
+
 
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
@@ -903,6 +913,10 @@ footer {
   }
 
   .timeline-items::before {
+    left: 7px;
+  }
+
+  .progress {
     left: 7px;
   }
 

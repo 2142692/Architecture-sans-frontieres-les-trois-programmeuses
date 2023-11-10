@@ -683,7 +683,16 @@ footer .no5 a {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
+  background-color: rgba(178, 175, 213, 0.6352941176);
+  left: calc(50% - 1px);
+}
+
+.progress {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0%;
+  background-color: #280aeb;
   left: calc(50% - 1px);
 }
 
@@ -705,6 +714,9 @@ footer .no5 a {
     left: 0;
   }
   .timeline-items::before {
+    left: 7px;
+  }
+  .progress {
     left: 7px;
   }
   .timeline-item:nth-child(odd) {
