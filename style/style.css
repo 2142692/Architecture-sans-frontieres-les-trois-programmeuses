@@ -86,8 +86,7 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -151,8 +150,7 @@ li button {
 #section-news .swiper-slide .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-news .swiper-slide .card .card-header {
   padding-left: 0 !important;
@@ -244,8 +242,7 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-nouvelles .card .card-header {
   padding-left: 0 !important;
@@ -264,8 +261,7 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -326,8 +322,7 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -395,8 +390,7 @@ footer .no5 a {
 #section-propos img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 #section-propos h4 {
@@ -415,8 +409,7 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -456,8 +449,7 @@ footer .no5 a {
 #services .card .img-fluid {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #services .card button {
   width: 100%;
@@ -471,8 +463,7 @@ footer .no5 a {
 #hero_service_detail .img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_service_detail .titre_service_detail {
   position: absolute;
@@ -485,8 +476,7 @@ footer .no5 a {
 }
 #hero_service_detail .titre_service_detail .service_logo {
   width: 100px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 #hero_service_detail .titre_service_detail .titre {
   color: #000;
@@ -508,8 +498,7 @@ footer .no5 a {
 #service_partenaires img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 
@@ -550,8 +539,7 @@ footer .no5 a {
   #service_partenaires .partenaires img {
     width: 100%;
     height: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -567,8 +555,7 @@ footer .no5 a {
 #hero_nouvelle_detail .img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelle_detail .titre_nouvelle_detail {
   position: absolute;
@@ -597,8 +584,7 @@ footer .no5 a {
 #nouvelle_part02 img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 
@@ -610,8 +596,7 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -685,7 +670,16 @@ footer .no5 a {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: rgba(178, 175, 213, 0.8274509804);
+  background-color: rgba(178, 175, 213, 0.6352941176);
+  left: calc(50% - 1px);
+}
+
+.progress {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0%;
+  background-color: #280aeb;
   left: calc(50% - 1px);
 }
 
@@ -707,6 +701,9 @@ footer .no5 a {
     left: 0;
   }
   .timeline-items::before {
+    left: 7px;
+  }
+  .progress {
     left: 7px;
   }
   .timeline-item:nth-child(odd) {
@@ -732,14 +729,12 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-center {

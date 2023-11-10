@@ -19,8 +19,22 @@ hamburger.addEventListener('mouseenter', () => {
   });
 });
 // --- FIN Hamburger Animation ---
+const timeline = document.querySelector('.timeline-items');
+const progress = document.querySelector('.progress');
 
-const mask = document.querySelector('#groupe');
+
+gsap.to(progress, {
+  height: "100%",
+  scrollTrigger:{
+      trigger: timeline,
+      markers: true,
+      start: "0% 24%",
+      end: "80%",
+      scrub:1,
+  }
+});
+
+/*const mask = document.querySelector('#groupe');
 
 const section = document.querySelector('.histoire_desc');
 const desc1 = document.querySelector('.desc1');
@@ -29,7 +43,7 @@ const desc3 = document.querySelector('.desc3');
 const desc4 = document.querySelector('.desc4');
 const desc5 = document.querySelector('.desc5');
 const desc6 = document.querySelector('.desc6');
-const desc7 = document.querySelector('.desc7');
+const desc7 = document.querySelector('.desc7');*/
 /*let scrollOne = gsap.to(sections, {
     yPercent: -100 * (sections.length - 1),
     ease: "none",
@@ -41,7 +55,7 @@ const desc7 = document.querySelector('.desc7');
     }
 })*/
 
-gsap.to(mask, {
+/*gsap.to(mask, {
     height: "100%",
     scrollTrigger:{
         trigger: section,
@@ -134,4 +148,4 @@ gsap.fromTo(desc7, {
   start: "85% 24%",
   end: "85% 24%",
   scrub:1,
-}});
+}});*/
