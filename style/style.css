@@ -99,9 +99,18 @@ li button {
   background: #7260e6;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .hero .card .card-body {
     height: 68vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 376px) {
+  .hero .card .card-body {
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -127,6 +136,7 @@ li button {
   color: #280aeb;
 }
 #section-services .card button {
+  width: 150px;
   margin: 20px;
 }
 
@@ -157,6 +167,7 @@ li button {
   padding-right: 0 !important;
 }
 #section-news .swiper-slide .card button {
+  width: 150px;
   margin: 20px;
 }
 #section-news .swiper-button-prev,
@@ -249,7 +260,8 @@ footer .no5 a {
   padding-right: 0 !important;
   background-color: none !important;
 }
-#section-nouvelles .card button {
+#section-nouvelles .card .btn {
+  width: 150px;
   margin: 20px;
 }
 
@@ -451,8 +463,9 @@ footer .no5 a {
   height: 100%;
   object-fit: cover;
 }
-#services .card button {
-  width: 100%;
+#services .card .btn {
+  width: 150px;
+  margin: 20px;
 }
 
 #hero_service_detail {

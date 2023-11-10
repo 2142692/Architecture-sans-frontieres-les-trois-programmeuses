@@ -121,11 +121,25 @@ li {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .hero {
     .card {
       .card-body {
         height: 68vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: baseline;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .hero {
+    .card {
+      .card-body {
+        height: 50vh;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -162,6 +176,7 @@ li {
     }
 
     button {
+      width: 150px;
       margin: 20px;
     }
   }
@@ -199,6 +214,7 @@ li {
       }
 
       button {
+        width: 150px;
         margin: 20px;
       }
     }
@@ -319,7 +335,8 @@ footer {
       background-color: none !important;
     }
 
-    button {
+    .btn {
+      width: 150px;
       margin: 20px;
     }
   }
@@ -573,8 +590,9 @@ footer {
       object-fit: cover;
     }
 
-    button {
-      width: 100%;
+    .btn {
+      width: 150px;
+      margin: 20px;
     }
   }
 }
