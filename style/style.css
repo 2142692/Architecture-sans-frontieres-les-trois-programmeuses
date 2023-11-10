@@ -86,8 +86,7 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -100,9 +99,18 @@ li button {
   background: #7260e6;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .hero .card .card-body {
     height: 68vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 376px) {
+  .hero .card .card-body {
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -128,6 +136,7 @@ li button {
   color: #280aeb;
 }
 #section-services .card button {
+  width: 150px;
   margin: 20px;
 }
 
@@ -151,14 +160,14 @@ li button {
 #section-news .swiper-slide .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-news .swiper-slide .card .card-header {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 #section-news .swiper-slide .card button {
+  width: 150px;
   margin: 20px;
 }
 #section-news .swiper-button-prev,
@@ -244,15 +253,15 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #section-nouvelles .card .card-header {
   padding-left: 0 !important;
   padding-right: 0 !important;
   background-color: none !important;
 }
-#section-nouvelles .card button {
+#section-nouvelles .card .btn {
+  width: 150px;
   margin: 20px;
 }
 
@@ -264,8 +273,7 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -326,8 +334,7 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -395,8 +402,7 @@ footer .no5 a {
 #section-propos img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 #section-propos h4 {
@@ -415,8 +421,7 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -456,11 +461,11 @@ footer .no5 a {
 #services .card .img-fluid {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-#services .card button {
-  width: 100%;
+#services .card .btn {
+  width: 150px;
+  margin: 20px;
 }
 
 #hero_service_detail {
@@ -471,8 +476,7 @@ footer .no5 a {
 #hero_service_detail .img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_service_detail .titre_service_detail {
   position: absolute;
@@ -485,8 +489,7 @@ footer .no5 a {
 }
 #hero_service_detail .titre_service_detail .service_logo {
   width: 100px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 #hero_service_detail .titre_service_detail .titre {
   color: #000;
@@ -508,8 +511,7 @@ footer .no5 a {
 #service_partenaires img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 
@@ -550,8 +552,7 @@ footer .no5 a {
   #service_partenaires .partenaires img {
     width: 100%;
     height: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -567,8 +568,7 @@ footer .no5 a {
 #hero_nouvelle_detail .img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_nouvelle_detail .titre_nouvelle_detail {
   position: absolute;
@@ -597,8 +597,7 @@ footer .no5 a {
 #nouvelle_part02 img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 400px;
 }
 
@@ -610,8 +609,7 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -732,14 +730,12 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-center {
