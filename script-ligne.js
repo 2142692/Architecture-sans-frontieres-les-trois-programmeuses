@@ -19,6 +19,8 @@ hamburger.addEventListener('mouseenter', () => {
   });
 });
 // --- FIN Hamburger Animation ---
+
+// --- DÉBUT ligne du temps Animation ---
 const timeline = document.querySelector('.timeline-items');
 const progress = document.querySelector('.progress');
 
@@ -255,3 +257,4 @@ gsap.from(date2, {opacity: 0 , y: -50,
    end: "76% 24%",
     scrub:1,
   }});
+// --- FIN ligne du temps Animation ---
