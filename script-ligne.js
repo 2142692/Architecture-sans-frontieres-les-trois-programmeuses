@@ -27,125 +27,231 @@ gsap.to(progress, {
   height: "100%",
   scrollTrigger:{
       trigger: timeline,
-      markers: true,
-      start: "0% 24%",
-      end: "80%",
+    
+      start: "-2% 24%",
+      end: "95%",
       scrub:1,
   }
 });
 
-/*const mask = document.querySelector('#groupe');
+const dot1 = document.querySelector('.timeline-dot.no1'); 
+const dot2 = document.querySelector('.timeline-dot.no2'); 
+const dot3 = document.querySelector('.timeline-dot.no3'); 
+const dot4 = document.querySelector('.timeline-dot.no4'); 
+const dot5 = document.querySelector('.timeline-dot.no5'); 
+const dot6 = document.querySelector('.timeline-dot.no6'); 
+const dot7 = document.querySelector('.timeline-dot.no7'); 
 
-const section = document.querySelector('.histoire_desc');
-const desc1 = document.querySelector('.desc1');
-const desc2 = document.querySelector('.desc2');
-const desc3 = document.querySelector('.desc3');
-const desc4 = document.querySelector('.desc4');
-const desc5 = document.querySelector('.desc5');
-const desc6 = document.querySelector('.desc6');
-const desc7 = document.querySelector('.desc7');*/
-/*let scrollOne = gsap.to(sections, {
-    yPercent: -100 * (sections.length - 1),
-    ease: "none",
-    scrollTrigger:{
-        trigger: sections,
-        pin: true,
-        scrub: 1,
-        end: "+=3000"
-    }
-})*/
-
-/*gsap.to(mask, {
-    height: "100%",
-    scrollTrigger:{
-        trigger: section,
-        
-        start: "0% 24%",
-        end: "80%",
-        scrub:1,
-    }
-});
-
-gsap.fromTo(desc1, {
+gsap.fromTo(dot1, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
- 
+  trigger: timeline,
+  
   start: "0% 24%",
   end: "0% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc2, {
+gsap.fromTo(dot2, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
   
-  start: "9% 24%",
-  end: "9% 24%",
+  start: "8% 24%",
+  end: "8% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc3, {
+gsap.fromTo(dot3, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
  
-  start: "18% 24%",
-  end: "18% 24%",
+  start: "16% 24%",
+  end: "16% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc4, {
+gsap.fromTo(dot4, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
   
-  start: "28% 24%",
-  end: "28% 24%",
+  start: "24% 24%",
+  end: "24% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc5, {
+gsap.fromTo(dot5, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
   
-  start: "41% 24%",
-  end: "41% 24%",
+  start: "35% 24%",
+  end: "35% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc6, {
+gsap.fromTo(dot6, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
  
-  start: "56% 24%",
-  end: "56% 24%",
+  start: "50% 24%",
+  end: "50% 24%",
   scrub:1,
 }});
 
-gsap.fromTo(desc7, {
+gsap.fromTo(dot7, {
   opacity: "0%",
  
 }, {opacity:"100%",
  scrollTrigger:{
-  trigger: section,
+  trigger: timeline,
   
-  start: "85% 24%",
-  end: "85% 24%",
+  start: "70% 24%",
+  end: "70% 24%",
   scrub:1,
-}});*/
+}});
+
+
+const date1 = document.querySelector('.timeline-date.no1'); 
+const date2 = document.querySelector('.timeline-date.no2'); 
+const date3 = document.querySelector('.timeline-date.no3'); 
+const date4 = document.querySelector('.timeline-date.no4'); 
+const date5 = document.querySelector('.timeline-date.no5'); 
+const date6 = document.querySelector('.timeline-date.no6'); 
+const date7 = document.querySelector('.timeline-date.no7'); 
+
+gsap.from(date1, {opacity: 0 , y: -50,
+ scrollTrigger:{
+  trigger: timeline,
+  start: "0% 24%",
+  end: "0% 24%",
+  scrub:1,
+}});
+
+gsap.from(date2, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "8% 24%",
+   end: "8% 24%",
+   scrub:1,
+ }});
+
+ gsap.from(date3, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "16% 24%",
+  end: "16% 24%",
+   scrub:1,
+ }});
+
+ gsap.from(date4, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "24% 24%",
+  end: "24% 24%",
+   scrub:1,
+ }});
+
+ gsap.from(date5, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "35% 24%",
+  end: "35% 24%",
+   scrub:1,
+ }});
+
+ gsap.from(date6, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "50% 24%",
+   end: "50% 24%",
+   scrub:1,
+ }});
+
+ gsap.from(date7, {opacity: 0 , y: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "70% 24%",
+  end: "70% 24%",
+   scrub:1,
+ }});
+
+ 
+ const content1 = document.querySelector('.timeline-content.no1'); 
+ const content2 = document.querySelector('.timeline-content.no2'); 
+ const content3 = document.querySelector('.timeline-content.no3'); 
+ const content4 = document.querySelector('.timeline-content.no4'); 
+ const content5 = document.querySelector('.timeline-content.no5'); 
+ const content6 = document.querySelector('.timeline-content.no6'); 
+ const content7 = document.querySelector('.timeline-content.no7'); 
+
+ gsap.from(content1, {opacity: 0 , x: -50,
+  scrollTrigger:{
+   trigger: timeline,
+   start: "0% 24%",
+   end: "6% 24%",
+   scrub:1,
+ }});
+ 
+ gsap.from(content2, {opacity: 0 , x: 50,
+   scrollTrigger:{
+    trigger: timeline,
+    start: "8% 24%",
+    end: "14% 24%",
+    scrub:1,
+  }});
+ 
+  gsap.from(content3, {opacity: 0 , x: -50,
+   scrollTrigger:{
+    trigger: timeline,
+    start: "16% 24%",
+   end: "22% 24%",
+    scrub:1,
+  }});
+ 
+  gsap.from(content4, {opacity: 0 , x: 50,
+   scrollTrigger:{
+    trigger: timeline,
+    start: "24% 24%",
+   end: "30% 24%",
+    scrub:1,
+  }});
+ 
+  gsap.from(content5, {opacity: 0 , x: -50,
+   scrollTrigger:{
+    trigger: timeline,
+    start: "35% 24%",
+   end: "41% 24%",
+    scrub:1,
+  }});
+ 
+  gsap.from(content6, {opacity: 0 , x: 50,
+   scrollTrigger:{
+    trigger: timeline,
+    start: "50% 24%",
+    end: "56% 24%",
+    scrub:1,
+  }});
+ 
+  gsap.from(content7, {opacity: 0 , x: -50, 
+   scrollTrigger:{
+    trigger: timeline,
+    start: "70% 24%",
+   end: "76% 24%",
+    scrub:1,
+  }});
