@@ -36,9 +36,20 @@ h5 {
 .alert {
   margin-bottom: 0 !important;
   @include banniere.alert;
+  transform: scaleY(1);
+  transition: all ease-in-out .3s;
 
   .btn-close {
     top: 0.3rem !important;
+  }
+
+  .alert-hidden {
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all ease-in-out .3s;
   }
 }
 

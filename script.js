@@ -58,4 +58,20 @@ timeLine.to(".text", {duration: 2, text: sentence});
 animation.add(timeLine);
 // --- FIN Don Animation ---
 
+// --- DÉBUT LocalStorage ---
+const alert = document.querySelector('.alert');
+const dismissAlertButton = document.querySelector('.alert .btn-close');
+
+if (localStorage.getItem('hideAlert')) {
+  alert.style.display = "none";
+}
+
+if (dismissAlertButton) {
+  dismissAlertButton.addEventListener('click', event => {
+    event.preventDefault();
+    alert.classList.add('alert-hidden');
+    localStorage.setItem("hideAlert", true);
+  })
+}
+// --- FIN LocalStorage ---
 
