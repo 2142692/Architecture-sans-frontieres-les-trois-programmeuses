@@ -1,4 +1,5 @@
 // --- DÉBUT Swiper Hero ---
+/*if(document.querySelector(".mySwiper")){
 const swiperHero = new Swiper(".mySwiper", {
     direction: "horizontal",
     slidesPerView: 1,
@@ -11,17 +12,18 @@ const swiperHero = new Swiper(".mySwiper", {
       clickable: true,
     },
 });
+}*/
 // --- FIN Swiper Hero ---
 
 // --- DÉBUT Swiper Nouvelles ---
-const swiperNews = new Swiper(".mySecondSwiper", {
+/*const swiperNews = new Swiper(".mySecondSwiper", {
   direction: "horizontal",
   centeredSlides: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-});
+});*/
 // --- FIN Swiper Nouvelles ---
 
 // --- DÉBUT Hambuger Animation ---
@@ -46,7 +48,7 @@ hamburger.addEventListener('mouseenter', () => {
 
 // --- DÉBUT Don Animation ---
 const sentence = "Faites un don";
-
+/*
 let cursor = gsap.to(".cursor", {opacity: 0, ease: "power2.inOut", repeat: -1});
 
 gsap.from(".contenu svg", {x: "15%", yoyo: true, ease: "power1.inOut", repeat: -1});
@@ -57,13 +59,14 @@ let timeLine = gsap.timeline();
 timeLine.to(".text", {duration: 2, text: sentence});
 animation.add(timeLine);
 // --- FIN Don Animation ---
-
+*/
 // --- DÉBUT LocalStorage ---
 const alert = document.querySelector('.alert');
 const dismissAlertButton = document.querySelector('.alert .btn-close');
 
 if (localStorage.getItem('hideAlert')) {
   alert.style.display = "none";
+  console.log('cacher');
 }
 
 if (dismissAlertButton) {
