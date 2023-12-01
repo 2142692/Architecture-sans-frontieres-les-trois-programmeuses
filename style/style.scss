@@ -413,21 +413,6 @@ footer {
 // --- FIN FAQ ---
 
 // --- DÉBUT À propos ---
-#section-equipe .card {
-  background-color: #b3cee0;
-  margin-bottom: 28px;
-
-  img {
-    margin-left: 42px;
-    margin-top: 60px;
-    width: 80%;
-  }
-
-  h6 {
-    font-weight: bold;
-    color: #16077a;
-  }
-}
 
 #hero_about {
   position: relative;
@@ -538,6 +523,56 @@ footer {
   }
 }
 // --- FIN À Propos ---
+
+// --- DÉBUT Équipe ---
+
+#hero_team {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .titre_team {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 50%;
+    background-color: #b2afd5d3;
+
+    .titre {
+      color: #000;
+      font-size: 60px;
+    }
+
+    .desc {
+      color: #16077a;
+      font-size: 30px;
+    }
+  }
+}
+
+#section-team .card {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+
+  h6 {
+    font-weight: bold;
+    color: #16077a;
+  }
+}
 
 // --- DÉBUT Hub de services ---
 #hero_services {
