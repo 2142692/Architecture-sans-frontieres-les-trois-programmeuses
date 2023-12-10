@@ -448,6 +448,8 @@ footer .no5 a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 500px;
+  height: 500px;
 }
 #section-team .card img {
   width: 300px;
