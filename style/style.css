@@ -450,7 +450,8 @@ footer .no5 a {
   align-items: center;
 }
 #section-team .card img {
-  width: 50%;
+  width: 300px;
+  height: 300px;
 }
 #section-team .card h6 {
   font-weight: bold;
