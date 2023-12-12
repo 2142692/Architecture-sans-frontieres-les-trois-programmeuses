@@ -2,8 +2,10 @@
 @use "../style/mixin/button";
 @use "../style/mixin/banniere";
 @use "../style/mixin/hero-title";
+@use "../style/mixin/variables";
 
-$color-title: #280aeb;
+@use "sass:color";
+
 
 body {
   overflow-x: hidden;
@@ -29,7 +31,7 @@ body {
 h2,
 h3,
 h5 {
-  color: $color-title;
+  color: variables.$color-title;
 }
 
 // --- DÉBUT Accueil ---
