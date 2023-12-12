@@ -12,9 +12,9 @@ body {
 }
 
 .btn {
-  background-color: #7260E6;
   border: none;
   border-radius: 0%;
+  background-color: #7260e6;
 }
 .btn:hover {
   background-color: #9b91e1;
@@ -96,7 +96,8 @@ li button {
 .hero .card img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 4/3;
 }
 .hero .swiper-pagination-bullet {
@@ -176,7 +177,8 @@ li button {
 #section-news .swiper-slide .card img {
   width: 100%;
   height: 312px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #section-news .swiper-slide .card .card-header {
   padding-left: 0 !important;
@@ -272,7 +274,8 @@ footer .no5 a {
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #section-nouvelles .card .card-header {
   padding-left: 0 !important;
@@ -292,7 +295,8 @@ footer .no5 a {
 #hero_nouvelles img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_nouvelles .titre_nouvelles {
   position: absolute;
@@ -339,7 +343,8 @@ footer .no5 a {
 #hero_about img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_about .titre_about {
   position: absolute;
@@ -407,7 +412,8 @@ footer .no5 a {
 #section-propos img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   max-width: 400px;
 }
 #section-propos h4 {
@@ -426,7 +432,8 @@ footer .no5 a {
 #hero_team img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_team .titre_team {
   position: absolute;
@@ -470,7 +477,8 @@ footer .no5 a {
 #hero_services img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_services .titre_services {
   position: absolute;
@@ -513,7 +521,8 @@ footer .no5 a {
 #services .card .card-img-top {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #services .card .card-img-top.benevole {
   height: 222px;
@@ -532,7 +541,8 @@ footer .no5 a {
 #hero_service_detail .img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_service_detail .titre_service_detail {
   position: absolute;
@@ -545,7 +555,8 @@ footer .no5 a {
 }
 #hero_service_detail .titre_service_detail .service_logo {
   width: 100px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #hero_service_detail .titre_service_detail .titre {
   color: #000;
@@ -567,7 +578,8 @@ footer .no5 a {
 #service_partenaires img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   max-width: 400px;
 }
 
@@ -608,7 +620,8 @@ footer .no5 a {
   #service_partenaires .partenaires img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -624,7 +637,8 @@ footer .no5 a {
 #hero_nouvelle_detail .img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_nouvelle_detail .titre_nouvelle_detail {
   position: absolute;
@@ -657,7 +671,8 @@ footer .no5 a {
 #detail-nouvelle img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   max-width: 400px;
 }
 
@@ -669,7 +684,8 @@ footer .no5 a {
 #hero_histoire img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #hero_histoire .titre_histoire {
   position: absolute;
@@ -802,12 +818,14 @@ footer .no5 a {
 }
 .loader .clip-top {
   top: 0;
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-bottom {
   bottom: 0;
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
   background: #7260e6;
 }
 .loader .clip-center {

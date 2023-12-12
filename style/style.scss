@@ -1,11 +1,8 @@
-@use "../style/mixin/card";
-@use "../style/mixin/button";
-@use "../style/mixin/banniere";
-@use "../style/mixin/hero-title";
-@use "../style/mixin/variables";
-
+@use "mixins/card";
+@use "mixins/button";
+@use "mixins/banniere";
 @use "sass:color";
-
+@import "variable";
 
 body {
   overflow-x: hidden;
@@ -22,6 +19,7 @@ body {
 
 .btn {
   @include button.bouton;
+  background-color: $color-button;
 
   &:hover {
     background-color: #9b91e1;
@@ -31,7 +29,7 @@ body {
 h2,
 h3,
 h5 {
-  color: variables.$color-title;
+  color: $color-title;
 }
 
 // --- DÉBUT Accueil ---
@@ -174,14 +172,14 @@ li {
 
 #section-services {
   .card {
-    background-color: #a5c6dc;
+    background-color: $color-card-special;
     box-shadow: none;
     height: 50vh;
     margin: 10px;
     padding-top: 10px;
 
     &.card:hover {
-      background-color: #c4dff1;
+      background-color: $color-hover;
     }
 
     .logo-service {
@@ -215,12 +213,12 @@ li {
     justify-content: center;
 
     .card {
-      background-color: #b3cee0;
+      background-color: $color-card;
       max-width: 500px;
       height: 100%;
 
       &.card:hover {
-        background-color: #c4dff1;
+        background-color: $color-hover;
       }
 
       img {
@@ -257,7 +255,7 @@ li {
 
 #section-testimonial {
   .card {
-    background-color: #a5c6dc;
+    background-color: $color-card-special;
 
     img {
       border-radius: 50%;
@@ -341,11 +339,11 @@ footer {
 // --- DÉBUT Hub de nouvelles ---
 #section-nouvelles {
   .card {
-    background-color: #b3cee0;
+    background-color: $color-card;
     height: 100%;
 
     &.card:hover {
-      background-color: #c4dff1;
+      background-color: $color-hover;
     }
 
     img {
@@ -385,7 +383,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     .titre {
       color: #000;
@@ -558,7 +556,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     .titre {
       color: #000;
@@ -611,7 +609,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     .titre {
       color: #000;
@@ -636,10 +634,10 @@ footer {
 
 #services {
   .card {
-    background-color: #b3cee0;
+    background-color: $color-card;
 
     &.card:hover {
-      background-color: #c4dff1;
+      background-color: $color-hover;
     }
 
     .card-title {
@@ -692,7 +690,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     .service_logo {
       width: 100px;
@@ -814,7 +812,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 55%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     h2 {
       color: #000;
@@ -876,7 +874,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
-    background-color: #b2afd5d3;
+    background-color: $color-hero;
 
     .titre {
       color: #000;
