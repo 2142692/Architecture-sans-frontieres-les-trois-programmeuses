@@ -12,9 +12,9 @@ body {
 }
 
 .btn {
-  background-color: #7260E6;
   border: none;
   border-radius: 0%;
+  background-color: #7260e6;
 }
 .btn:hover {
   background-color: #9b91e1;
@@ -140,6 +140,9 @@ li button {
   margin: 10px;
   padding-top: 10px;
 }
+#section-services .card.card:hover {
+  background-color: #c4dff1;
+}
 #section-services .card .logo-service {
   margin-left: 10px;
 }
@@ -167,6 +170,9 @@ li button {
   background-color: #b3cee0;
   max-width: 500px;
   height: 100%;
+}
+#section-news .swiper-slide .card.card:hover {
+  background-color: #c4dff1;
 }
 #section-news .swiper-slide .card img {
   width: 100%;
@@ -262,6 +268,9 @@ footer .no5 a {
   background-color: #b3cee0;
   height: 100%;
 }
+#section-nouvelles .card.card:hover {
+  background-color: #c4dff1;
+}
 #section-nouvelles .card img {
   width: 100%;
   height: 312px;
@@ -313,6 +322,35 @@ footer .no5 a {
     height: 60%;
   }
 }
+#hero_faq {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#hero_faq img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero_faq .titre_faq {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_faq .titre_faq .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_faq .titre_faq .desc {
+  color: #16077a;
+  font-size: 30px;
+}
+
 .accordion-button.collapsed::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
@@ -497,6 +535,9 @@ footer .no5 a {
 }
 #services .card {
   background-color: #b3cee0;
+}
+#services .card.card:hover {
+  background-color: #c4dff1;
 }
 #services .card .card-title {
   color: #280aeb;
