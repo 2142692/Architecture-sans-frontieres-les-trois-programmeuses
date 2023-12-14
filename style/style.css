@@ -498,6 +498,53 @@ footer .no5 a {
   color: #16077a;
 }
 
+#section-invitation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-invitation .card {
+  height: 28vh;
+  width: 100%;
+  text-align: center;
+}
+#section-invitation .btn {
+  width: 100%;
+}
+
+.check {
+  margin-left: 205px;
+}
+
+#hero_don {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#hero_don img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero_don .titre_don {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50%;
+  background-color: rgba(178, 175, 213, 0.8274509804);
+}
+#hero_don .titre_don .titre {
+  color: #000;
+  font-size: 60px;
+}
+#hero_don .titre_don .desc {
+  color: #16077a;
+  font-size: 30px;
+}
+
 #hero_services {
   position: relative;
   width: 100vw;

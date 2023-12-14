@@ -1,0 +1,387 @@
+<!-- Structure de base HTML -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Don</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header>
+      <!-- Bannière -->
+
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong class="me-2"
+          >Ce site a été réalisé à des fins entièrement pédagogiques.</strong
+        >
+        <a href="https://www.asf-quebec.org/">
+          <button
+            type="button"
+            class="btn btn-primary"
+            href="https://www.asf-quebec.org/"
+          >
+            Visiter le site officiel
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </button>
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+          <!-- Logo -->
+
+          <a
+            class="navbar-brand"
+            value="href"
+            onclick="location.href='index.html'"
+          >
+            <img
+              src="sources/medias/accueil/logos/logo_site.png"
+              width="175px"
+              height="65px"
+            />
+          </a>
+
+          <!-- Hamburger -->
+
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Affichage/masquage de la navigation"
+          >
+            <svg
+              viewBox="0 0 12 10"
+              class="hamburger"
+              height="30px"
+              width="50px"
+            >
+              <path
+                d="M10,2 L2,2"
+                class="upper"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+              <path
+                d="M2,5 L10,5"
+                class="middle"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+              <path
+                d="M10,8 L2,8"
+                class="lower"
+                style="fill: none; stroke: #7260e6; stroke-linecap: round"
+              />
+            </svg>
+          </button>
+
+          <!-- Navigation -->
+
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no1" href="a_propos.html"
+                  >À propos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no2" href="services.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no3" href="nouvelles.html"
+                  >Nouvelles</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no4" href="histoire.html"
+                  >Histoire</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no5" href="equipe.html">Équipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no6" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn btn-primary me-3"
+                  value="href"
+                  onclick="location.href='don.html'"
+                >
+                  Contribuez
+                </button>
+              </li>
+              <li class="nav-item">
+                <a href="index_en.html" class="nav-link me-3">EN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Page don - hero -->
+
+      <section id="hero_don">
+        <img src="sources/medias/don/hero_don.png" />
+
+        <div class="titre_don d-flex flex-column justify-content-center p-2">
+          <h2 class="titre text-center mb-4">Contribuez</h2>
+          <h5 class="desc text-center">
+            Soyez architectes du changement vous aussi
+          </h5>
+        </div>
+      </section>
+
+      <!-- Page don - invitation à donner -->
+
+      <section id="section-invitation">
+        <div class="container py-5">
+
+            <div class="row">
+                <div class="card mb-5 p-0">
+                  <div class="row g-0 d-flex align-items-center">
+                    <div class="col-12 ">
+
+                        <div class="col-12">
+                            <div class="card-body">
+                                <h5 class="card-title pt-5"> Donnez </h5>
+                                <hr style="height: 2px; background-color: #7260E6; width: 100%; border: none;">
+                                "Votre mission est importante. Je connais peu l'architecture, mais j'ai beaucoup voyagé et trop de gens vivent dans des conditions inhumaines et déplorables." <br><br> <strong><i>Hélène Briau, retraitée et donatrice régulière.</strong></i></p>
+           
+                                Aidez nous à faire la différence ! 
+             
+                              <br />
+                              <button type="button" class="btn btn-primary mt-4" class="btn" data-bs-toggle="modal"
+                    data-bs-target="#example">
+                     Donnez
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel" style="font-size: 25px; text-align: center; color: #280aeb;">Nous vous remercions pour votre contribution !</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+                        fenêtre" ></button>
+                    </div>
+                    <div class="modal-body">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="#7260e6" class="check" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                          <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+                        </svg>
+                  </div>
+                </div>
+            </div>
+
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          </div>
+        </section>
+
+                  
+                  
+        </main>
+    
+
+
+    <!-- Footer-->
+
+    <footer>
+      <div class="footer px-3 pt-5">
+        <!-- Logo -->
+
+        <div class="no1" value="href" onclick="location.href='index.html'">
+          <img src="sources/medias/accueil/logos/logo_site.png" />
+        </div>
+
+        <!-- Informations-->
+
+        <div class="no2">
+          <p class="text-center">514 868-1767</p>
+          <p class="text-center">info@asf-quebec.org</p>
+          <a
+            class="text-center"
+            href="https://www.google.com/maps/place/Architecture+Sans+Fronti%C3%A8res+Qu%C3%A9bec/@45.512038,-73.5626829,19.75z/data=!4m15!1m8!3m7!1s0x4cc91a4da68fadab:0x95ea673d9c434a4b!2sSainte-Catherine+Est,+201+St+Catherine+St+E,+Montreal,+QC+H2X+1L2!3b1!8m2!3d45.512057!4d-73.5623674!16s%2Fg%2F1td5wsdy!3m5!1s0x4cc9108322460ef1:0xca8e823480d71fa5!8m2!3d45.5118125!4d-73.5622731!16s%2Fg%2F1hc3w145c?entry=ttu"
+            >201 rue Sainte-Catherine Est, Montréal, QC, H2X 1L2</a
+          >
+          <p class="text-center mt-3 mb-0">
+            Numéro d’organisme de bienfaisance officiel <br />
+            du Canada : 831067012RR0001
+          </p>
+        </div>
+
+        <!-- Logo Partenaires-->
+
+        <div class="no3">
+          <p class="text-center">Notre fier partenaire-fondateur</p>
+          <img src="sources/medias/accueil/logos/logo_partenaire.png" />
+        </div>
+
+        <!-- Animation "Faire un don"-->
+
+        <div class="no4">
+          <button
+            class="btn btn-primary btn-lg"
+            value="href"
+            onclick="location.href='don.html'"
+          >
+            Faire un don
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Logo Facebook -->
+
+        <div class="no5">
+          <a href="https://www.facebook.com/architecturesansfrontieres/"
+            ><img
+              src="sources/medias/accueil/logos/logo_facebook.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+          /></a>
+
+          <!-- Logo Youtube-->
+
+          <a
+            href="https://www.youtube.com/channel/UCrfEAiivf9hiHqsQsxTCpBg/videos"
+            ><img
+              src="sources/medias/accueil/logos/logo_youtube.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+            />
+          </a>
+
+          <!-- Logo Linkedln -->
+
+          <a href="https://www.linkedin.com/company/asf-quebec/"
+            ><img
+              src="sources/medias/accueil/logos/logo_linkedln.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+            />
+          </a>
+
+          <!-- Logo twitter -->
+
+          <a href="https://twitter.com/quebecasf"
+            ><img
+              src="sources/medias/accueil/logos/logo_twitter.png"
+              width="50px"
+              height="50px"
+              style="margin: 0 5px"
+          /></a>
+        </div>
+
+        <!-- Copyright-->
+
+        <div class="no6 mt-3">
+          <p class="text-center">
+            ©2023 Architecture sans frontières Québec. <br />
+            LTP (Les Trois Programmeuses).
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lien vers les scripts -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
