@@ -498,18 +498,13 @@ footer .no5 a {
   color: #16077a;
 }
 
-#section-invitation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #section-invitation .card {
-  height: 28vh;
-  width: 100%;
+  height: 100%;
   text-align: center;
+  max-width: 800px;
 }
 #section-invitation .btn {
-  width: 100%;
+  width: 50%;
 }
 
 .check {
